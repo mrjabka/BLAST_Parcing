@@ -44,22 +44,18 @@ for alignment in blast_record.alignments:
 
 # 5. copy XML request file to target_url repository
 
-# get file creation time, data type - datetime.date()
-def get_time(url, file_name):
-    t = os.path.getmtime(url + '\\' + file_name)
-    return datetime.datetime.fromtimestamp(t)
+# set the path to the original file
+original_file_path = 'C:\\Users\\anike\\OneDrive\\Документы\\py_project\\blast_result.xml'
 
+# get the current date and time
+current_date = datetime.datetime.now()
 
-# copies file to target_url with new file name
-def copy_file(url, file_name, target_url, day):
-    str_day = str(day.date())
-    shutil.copy2(url + file_name, target_url + file_name[:-2] + '_' + str_day + '.xml')
-    return
+# create a new filename based on the date and time
+new_file_name = current_date.strftime('%Y-%m-%d_%H-%M-%S') + '.xml'
 
-day = get_time(url, file_name)
-copy_file(url, file_name, target_url, day)
-
-'''                          !!! optional element !!!
-if __name__ == '__main__':
-    pass
-'''
+# duplicate the file to the new location
+new_file_path = os.path.join('C:\\Users\\anike\\OneDrive\\Документы\\py_project\\blast_requests', new_file_name)
+os.makedirs(os.path.dirname(new_file_path), exist_ok=True)
+with open(original_file_path, 'rb') as original_file:
+    with open(new_file_path, 'wb') as new_file:
+        new_file.write(original_file.read())
