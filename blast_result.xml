@@ -1,0 +1,1442 @@
+<?xml version="1.0"?>
+<!DOCTYPE BlastOutput PUBLIC "-//NCBI//NCBI BlastOutput/EN" "http://www.ncbi.nlm.nih.gov/dtd/NCBI_BlastOutput.dtd">
+<BlastOutput>
+  <BlastOutput_program>blastn</BlastOutput_program>
+  <BlastOutput_version>BLASTN 2.15.0+</BlastOutput_version>
+  <BlastOutput_reference>Stephen F. Altschul, Thomas L. Madden, Alejandro A. Sch&amp;auml;ffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), &quot;Gapped BLAST and PSI-BLAST: a new generation of protein database search programs&quot;, Nucleic Acids Res. 25:3389-3402.</BlastOutput_reference>
+  <BlastOutput_db>nt</BlastOutput_db>
+  <BlastOutput_query-ID>Query_1132463</BlastOutput_query-ID>
+  <BlastOutput_query-def>L34</BlastOutput_query-def>
+  <BlastOutput_query-len>580</BlastOutput_query-len>
+  <BlastOutput_param>
+    <Parameters>
+      <Parameters_expect>10</Parameters_expect>
+      <Parameters_sc-match>2</Parameters_sc-match>
+      <Parameters_sc-mismatch>-3</Parameters_sc-mismatch>
+      <Parameters_gap-open>5</Parameters_gap-open>
+      <Parameters_gap-extend>2</Parameters_gap-extend>
+      <Parameters_filter>L;m;</Parameters_filter>
+    </Parameters>
+  </BlastOutput_param>
+<BlastOutput_iterations>
+<Iteration>
+  <Iteration_iter-num>1</Iteration_iter-num>
+  <Iteration_query-ID>Query_1132463</Iteration_query-ID>
+  <Iteration_query-def>L34</Iteration_query-def>
+  <Iteration_query-len>580</Iteration_query-len>
+<Iteration_hits>
+<Hit>
+  <Hit_num>1</Hit_num>
+  <Hit_id>gi|2586927872|gb|OR618287.1|</Hit_id>
+  <Hit_def>Modiolus modiolus isolate 8 cytochrome c oxidase subunit I (COX1) gene, partial cds; mitochondrial</Hit_def>
+  <Hit_accession>OR618287</Hit_accession>
+  <Hit_len>633</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>1047.24</Hsp_bit-score>
+      <Hsp_score>1160</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>580</Hsp_query-to>
+      <Hsp_hit-from>13</Hsp_hit-from>
+      <Hsp_hit-to>592</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>580</Hsp_identity>
+      <Hsp_positive>580</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>580</Hsp_align-len>
+      <Hsp_qseq>TTAGGTGTTTGATCGGGAATGGTGGGGATTGGTTTAAGAATGTTAATTCGAATTGAGTTAGGTCGTCCTGGAAGATTTTTAGGGGACGATCAGTTATACAACGTCATTGTTACGGCCCATGCTTTAGTTATAATTTTCTTTATGGTTATGCCTTTAATGGTCGGGGGTTTTGGGAATTGGCTTCTTCCATTAATAATAGGTTCTGTAGATATAATTTTTCCGCGACTTAACAATTTGAGATTTTGGTTTCTCCCCTCTTCATTATTTATACTGTTGAGGTCTACTTTTATTGAAAGCGGGTCCGGTACTGGATGGACTTTATATCCCCCTTTGTCTTCATATACAGGACATAGTGGCCCAGCTGTTGACATATCTTTATTTTCTTTACATTTGGCAGGTGCTTCTTCTATTGGTGGATCTATTAACTTTTTAACTAGTATAAAAAATATGCCGGTGGAGGTAATGCGAGGAGAGCGGATAATGTTGTTCTTGTGGTCTATGGTGGTAACAGCTGTTCTTTTATTGGTTTCTTTGCCTGTGCTGGCTGGCGGTATTACTATGTTGATTTTTGATCGTCATT</Hsp_qseq>
+      <Hsp_hseq>TTAGGTGTTTGATCGGGAATGGTGGGGATTGGTTTAAGAATGTTAATTCGAATTGAGTTAGGTCGTCCTGGAAGATTTTTAGGGGACGATCAGTTATACAACGTCATTGTTACGGCCCATGCTTTAGTTATAATTTTCTTTATGGTTATGCCTTTAATGGTCGGGGGTTTTGGGAATTGGCTTCTTCCATTAATAATAGGTTCTGTAGATATAATTTTTCCGCGACTTAACAATTTGAGATTTTGGTTTCTCCCCTCTTCATTATTTATACTGTTGAGGTCTACTTTTATTGAAAGCGGGTCCGGTACTGGATGGACTTTATATCCCCCTTTGTCTTCATATACAGGACATAGTGGCCCAGCTGTTGACATATCTTTATTTTCTTTACATTTGGCAGGTGCTTCTTCTATTGGTGGATCTATTAACTTTTTAACTAGTATAAAAAATATGCCGGTGGAGGTAATGCGAGGAGAGCGGATAATGTTGTTCTTGTGGTCTATGGTGGTAACAGCTGTTCTTTTATTGGTTTCTTTGCCTGTGCTGGCTGGCGGTATTACTATGTTGATTTTTGATCGTCATT</Hsp_hseq>
+      <Hsp_midline>||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>2</Hit_num>
+  <Hit_id>gi|2586927868|gb|OR618285.1|</Hit_id>
+  <Hit_def>Arcuatula senhousia isolate 2 cytochrome c oxidase subunit I (COX1) gene, partial cds; mitochondrial</Hit_def>
+  <Hit_accession>OR618285</Hit_accession>
+  <Hit_len>679</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>1047.24</Hsp_bit-score>
+      <Hsp_score>1160</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>580</Hsp_query-to>
+      <Hsp_hit-from>15</Hsp_hit-from>
+      <Hsp_hit-to>594</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>580</Hsp_identity>
+      <Hsp_positive>580</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>580</Hsp_align-len>
+      <Hsp_qseq>TTAGGTGTTTGATCGGGAATGGTGGGGATTGGTTTAAGAATGTTAATTCGAATTGAGTTAGGTCGTCCTGGAAGATTTTTAGGGGACGATCAGTTATACAACGTCATTGTTACGGCCCATGCTTTAGTTATAATTTTCTTTATGGTTATGCCTTTAATGGTCGGGGGTTTTGGGAATTGGCTTCTTCCATTAATAATAGGTTCTGTAGATATAATTTTTCCGCGACTTAACAATTTGAGATTTTGGTTTCTCCCCTCTTCATTATTTATACTGTTGAGGTCTACTTTTATTGAAAGCGGGTCCGGTACTGGATGGACTTTATATCCCCCTTTGTCTTCATATACAGGACATAGTGGCCCAGCTGTTGACATATCTTTATTTTCTTTACATTTGGCAGGTGCTTCTTCTATTGGTGGATCTATTAACTTTTTAACTAGTATAAAAAATATGCCGGTGGAGGTAATGCGAGGAGAGCGGATAATGTTGTTCTTGTGGTCTATGGTGGTAACAGCTGTTCTTTTATTGGTTTCTTTGCCTGTGCTGGCTGGCGGTATTACTATGTTGATTTTTGATCGTCATT</Hsp_qseq>
+      <Hsp_hseq>TTAGGTGTTTGATCGGGAATGGTGGGGATTGGTTTAAGAATGTTAATTCGAATTGAGTTAGGTCGTCCTGGAAGATTTTTAGGGGACGATCAGTTATACAACGTCATTGTTACGGCCCATGCTTTAGTTATAATTTTCTTTATGGTTATGCCTTTAATGGTCGGGGGTTTTGGGAATTGGCTTCTTCCATTAATAATAGGTTCTGTAGATATAATTTTTCCGCGACTTAACAATTTGAGATTTTGGTTTCTCCCCTCTTCATTATTTATACTGTTGAGGTCTACTTTTATTGAAAGCGGGTCCGGTACTGGATGGACTTTATATCCCCCTTTGTCTTCATATACAGGACATAGTGGCCCAGCTGTTGACATATCTTTATTTTCTTTACATTTGGCAGGTGCTTCTTCTATTGGTGGATCTATTAACTTTTTAACTAGTATAAAAAATATGCCGGTGGAGGTAATGCGAGGAGAGCGGATAATGTTGTTCTTGTGGTCTATGGTGGTAACAGCTGTTCTTTTATTGGTTTCTTTGCCTGTGCTGGCTGGCGGTATTACTATGTTGATTTTTGATCGTCATT</Hsp_hseq>
+      <Hsp_midline>||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>3</Hit_num>
+  <Hit_id>gi|1877092437|gb|MT736008.1|</Hit_id>
+  <Hit_def>Modiolus modiolus isolate WSK_HM069 cytochrome oxidase subunit 1 (COI) gene, partial cds; mitochondrial &gt;gi|1877092439|gb|MT736009.1| Modiolus modiolus isolate WSK_HM070 cytochrome oxidase subunit 1 (COI) gene, partial cds; mitochondrial</Hit_def>
+  <Hit_accession>MT736008</Hit_accession>
+  <Hit_len>603</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>1032.81</Hsp_bit-score>
+      <Hsp_score>1144</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>9</Hsp_query-from>
+      <Hsp_query-to>580</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>572</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>572</Hsp_identity>
+      <Hsp_positive>572</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>572</Hsp_align-len>
+      <Hsp_qseq>TTGATCGGGAATGGTGGGGATTGGTTTAAGAATGTTAATTCGAATTGAGTTAGGTCGTCCTGGAAGATTTTTAGGGGACGATCAGTTATACAACGTCATTGTTACGGCCCATGCTTTAGTTATAATTTTCTTTATGGTTATGCCTTTAATGGTCGGGGGTTTTGGGAATTGGCTTCTTCCATTAATAATAGGTTCTGTAGATATAATTTTTCCGCGACTTAACAATTTGAGATTTTGGTTTCTCCCCTCTTCATTATTTATACTGTTGAGGTCTACTTTTATTGAAAGCGGGTCCGGTACTGGATGGACTTTATATCCCCCTTTGTCTTCATATACAGGACATAGTGGCCCAGCTGTTGACATATCTTTATTTTCTTTACATTTGGCAGGTGCTTCTTCTATTGGTGGATCTATTAACTTTTTAACTAGTATAAAAAATATGCCGGTGGAGGTAATGCGAGGAGAGCGGATAATGTTGTTCTTGTGGTCTATGGTGGTAACAGCTGTTCTTTTATTGGTTTCTTTGCCTGTGCTGGCTGGCGGTATTACTATGTTGATTTTTGATCGTCATT</Hsp_qseq>
+      <Hsp_hseq>TTGATCGGGAATGGTGGGGATTGGTTTAAGAATGTTAATTCGAATTGAGTTAGGTCGTCCTGGAAGATTTTTAGGGGACGATCAGTTATACAACGTCATTGTTACGGCCCATGCTTTAGTTATAATTTTCTTTATGGTTATGCCTTTAATGGTCGGGGGTTTTGGGAATTGGCTTCTTCCATTAATAATAGGTTCTGTAGATATAATTTTTCCGCGACTTAACAATTTGAGATTTTGGTTTCTCCCCTCTTCATTATTTATACTGTTGAGGTCTACTTTTATTGAAAGCGGGTCCGGTACTGGATGGACTTTATATCCCCCTTTGTCTTCATATACAGGACATAGTGGCCCAGCTGTTGACATATCTTTATTTTCTTTACATTTGGCAGGTGCTTCTTCTATTGGTGGATCTATTAACTTTTTAACTAGTATAAAAAATATGCCGGTGGAGGTAATGCGAGGAGAGCGGATAATGTTGTTCTTGTGGTCTATGGTGGTAACAGCTGTTCTTTTATTGGTTTCTTTGCCTGTGCTGGCTGGCGGTATTACTATGTTGATTTTTGATCGTCATT</Hsp_hseq>
+      <Hsp_midline>||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>4</Hit_num>
+  <Hit_id>gi|1877092435|gb|MT736007.1|</Hit_id>
+  <Hit_def>Modiolus modiolus isolate WSK_HM068 cytochrome oxidase subunit 1 (COI) gene, partial cds; mitochondrial</Hit_def>
+  <Hit_accession>MT736007</Hit_accession>
+  <Hit_len>603</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>1028.3</Hsp_bit-score>
+      <Hsp_score>1139</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>9</Hsp_query-from>
+      <Hsp_query-to>580</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>572</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>571</Hsp_identity>
+      <Hsp_positive>571</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>572</Hsp_align-len>
+      <Hsp_qseq>TTGATCGGGAATGGTGGGGATTGGTTTAAGAATGTTAATTCGAATTGAGTTAGGTCGTCCTGGAAGATTTTTAGGGGACGATCAGTTATACAACGTCATTGTTACGGCCCATGCTTTAGTTATAATTTTCTTTATGGTTATGCCTTTAATGGTCGGGGGTTTTGGGAATTGGCTTCTTCCATTAATAATAGGTTCTGTAGATATAATTTTTCCGCGACTTAACAATTTGAGATTTTGGTTTCTCCCCTCTTCATTATTTATACTGTTGAGGTCTACTTTTATTGAAAGCGGGTCCGGTACTGGATGGACTTTATATCCCCCTTTGTCTTCATATACAGGACATAGTGGCCCAGCTGTTGACATATCTTTATTTTCTTTACATTTGGCAGGTGCTTCTTCTATTGGTGGATCTATTAACTTTTTAACTAGTATAAAAAATATGCCGGTGGAGGTAATGCGAGGAGAGCGGATAATGTTGTTCTTGTGGTCTATGGTGGTAACAGCTGTTCTTTTATTGGTTTCTTTGCCTGTGCTGGCTGGCGGTATTACTATGTTGATTTTTGATCGTCATT</Hsp_qseq>
+      <Hsp_hseq>TTGATCGGGAATGGTGGGTATTGGTTTAAGAATGTTAATTCGAATTGAGTTAGGTCGTCCTGGAAGATTTTTAGGGGACGATCAGTTATACAACGTCATTGTTACGGCCCATGCTTTAGTTATAATTTTCTTTATGGTTATGCCTTTAATGGTCGGGGGTTTTGGGAATTGGCTTCTTCCATTAATAATAGGTTCTGTAGATATAATTTTTCCGCGACTTAACAATTTGAGATTTTGGTTTCTCCCCTCTTCATTATTTATACTGTTGAGGTCTACTTTTATTGAAAGCGGGTCCGGTACTGGATGGACTTTATATCCCCCTTTGTCTTCATATACAGGACATAGTGGCCCAGCTGTTGACATATCTTTATTTTCTTTACATTTGGCAGGTGCTTCTTCTATTGGTGGATCTATTAACTTTTTAACTAGTATAAAAAATATGCCGGTGGAGGTAATGCGAGGAGAGCGGATAATGTTGTTCTTGTGGTCTATGGTGGTAACAGCTGTTCTTTTATTGGTTTCTTTGCCTGTGCTGGCTGGCGGTATTACTATGTTGATTTTTGATCGTCATT</Hsp_hseq>
+      <Hsp_midline>|||||||||||||||||| |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>5</Hit_num>
+  <Hit_id>gi|485099919|gb|KC119380.1|</Hit_id>
+  <Hit_def>Modiolus modiolus isolate Mo45 cytochrome c oxidase subunit 1 (CO1) gene, partial cds; mitochondrial</Hit_def>
+  <Hit_accession>KC119380</Hit_accession>
+  <Hit_len>598</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>1025.6</Hsp_bit-score>
+      <Hsp_score>1136</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>13</Hsp_query-from>
+      <Hsp_query-to>580</Hsp_query-to>
+      <Hsp_hit-from>598</Hsp_hit-from>
+      <Hsp_hit-to>31</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>-1</Hsp_hit-frame>
+      <Hsp_identity>568</Hsp_identity>
+      <Hsp_positive>568</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>568</Hsp_align-len>
+      <Hsp_qseq>TCGGGAATGGTGGGGATTGGTTTAAGAATGTTAATTCGAATTGAGTTAGGTCGTCCTGGAAGATTTTTAGGGGACGATCAGTTATACAACGTCATTGTTACGGCCCATGCTTTAGTTATAATTTTCTTTATGGTTATGCCTTTAATGGTCGGGGGTTTTGGGAATTGGCTTCTTCCATTAATAATAGGTTCTGTAGATATAATTTTTCCGCGACTTAACAATTTGAGATTTTGGTTTCTCCCCTCTTCATTATTTATACTGTTGAGGTCTACTTTTATTGAAAGCGGGTCCGGTACTGGATGGACTTTATATCCCCCTTTGTCTTCATATACAGGACATAGTGGCCCAGCTGTTGACATATCTTTATTTTCTTTACATTTGGCAGGTGCTTCTTCTATTGGTGGATCTATTAACTTTTTAACTAGTATAAAAAATATGCCGGTGGAGGTAATGCGAGGAGAGCGGATAATGTTGTTCTTGTGGTCTATGGTGGTAACAGCTGTTCTTTTATTGGTTTCTTTGCCTGTGCTGGCTGGCGGTATTACTATGTTGATTTTTGATCGTCATT</Hsp_qseq>
+      <Hsp_hseq>TCGGGAATGGTGGGGATTGGTTTAAGAATGTTAATTCGAATTGAGTTAGGTCGTCCTGGAAGATTTTTAGGGGACGATCAGTTATACAACGTCATTGTTACGGCCCATGCTTTAGTTATAATTTTCTTTATGGTTATGCCTTTAATGGTCGGGGGTTTTGGGAATTGGCTTCTTCCATTAATAATAGGTTCTGTAGATATAATTTTTCCGCGACTTAACAATTTGAGATTTTGGTTTCTCCCCTCTTCATTATTTATACTGTTGAGGTCTACTTTTATTGAAAGCGGGTCCGGTACTGGATGGACTTTATATCCCCCTTTGTCTTCATATACAGGACATAGTGGCCCAGCTGTTGACATATCTTTATTTTCTTTACATTTGGCAGGTGCTTCTTCTATTGGTGGATCTATTAACTTTTTAACTAGTATAAAAAATATGCCGGTGGAGGTAATGCGAGGAGAGCGGATAATGTTGTTCTTGTGGTCTATGGTGGTAACAGCTGTTCTTTTATTGGTTTCTTTGCCTGTGCTGGCTGGCGGTATTACTATGTTGATTTTTGATCGTCATT</Hsp_hseq>
+      <Hsp_midline>||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>6</Hit_num>
+  <Hit_id>gi|1104599752|gb|KX713479.1|</Hit_id>
+  <Hit_def>Modiolus modiolus voucher BivAToL-197 cytochrome c oxidase subunit I (COI) gene, partial cds; mitochondrial</Hit_def>
+  <Hit_accession>KX713479</Hit_accession>
+  <Hit_len>657</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>1024.7</Hsp_bit-score>
+      <Hsp_score>1135</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>580</Hsp_query-to>
+      <Hsp_hit-from>16</Hsp_hit-from>
+      <Hsp_hit-to>595</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>575</Hsp_identity>
+      <Hsp_positive>575</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>580</Hsp_align-len>
+      <Hsp_qseq>TTAGGTGTTTGATCGGGAATGGTGGGGATTGGTTTAAGAATGTTAATTCGAATTGAGTTAGGTCGTCCTGGAAGATTTTTAGGGGACGATCAGTTATACAACGTCATTGTTACGGCCCATGCTTTAGTTATAATTTTCTTTATGGTTATGCCTTTAATGGTCGGGGGTTTTGGGAATTGGCTTCTTCCATTAATAATAGGTTCTGTAGATATAATTTTTCCGCGACTTAACAATTTGAGATTTTGGTTTCTCCCCTCTTCATTATTTATACTGTTGAGGTCTACTTTTATTGAAAGCGGGTCCGGTACTGGATGGACTTTATATCCCCCTTTGTCTTCATATACAGGACATAGTGGCCCAGCTGTTGACATATCTTTATTTTCTTTACATTTGGCAGGTGCTTCTTCTATTGGTGGATCTATTAACTTTTTAACTAGTATAAAAAATATGCCGGTGGAGGTAATGCGAGGAGAGCGGATAATGTTGTTCTTGTGGTCTATGGTGGTAACAGCTGTTCTTTTATTGGTTTCTTTGCCTGTGCTGGCTGGCGGTATTACTATGTTGATTTTTGATCGTCATT</Hsp_qseq>
+      <Hsp_hseq>TTAGGTGTTTGATCGGGAATGGTGGGGATTGGTTTAAGAATGTTAATTCGAATTGAGTTAGGTCGTCCTGGAAGATTTTTAGGGGACGATCAGCTATATAACGTCATTGTTACGGCCCATGCTTTAGTTATAATTTTCTTTATGGTTATGCCTTTAATGGTCGGGGGTTTTGGGAATTGGCTTCTTCCATTAATAATAGGTTCTGTAGATATAATTTTTCCGCGACTTAACAATTTGAGATTTTGGTTTCTCCCCTCTTCATTATTTATACTGTTGAGGTCTACTTTTATTGAAAGCGGGTCCGGTACTGGATGGACTTTATATCCTCCTTTGTCTTCATATACAGGACATAGTGGCCCAGCTGTTGACATATCTTTATTTTCTTTACATTTGGCAGGTGCTTCTTCTATTGGTGGATCTATTAACTTTTTAACTAGTATAAAAAATATGCCGGTGGAGGTAATGCGAGGAGAGCGGATAATGTTGTTCTTGTGGTCTATGGTGGTAACAGCTGTTCTTTTATTGGTGTCTTTGCCTGTGCTGGCTGGCGGTATTACTATGCTGATTTTTGATCGTCATT</Hsp_hseq>
+      <Hsp_midline>||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| |||| ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| ||||||||||||||||||||||||||||||||| ||||||||||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>7</Hit_num>
+  <Hit_id>gi|908309460|gb|KR084900.1|</Hit_id>
+  <Hit_def>Modiolus modiolus voucher MT04964 cytochrome oxidase subunit 1 (COI) gene, partial cds; mitochondrial</Hit_def>
+  <Hit_accession>KR084900</Hit_accession>
+  <Hit_len>658</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>1024.7</Hsp_bit-score>
+      <Hsp_score>1135</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>580</Hsp_query-to>
+      <Hsp_hit-from>17</Hsp_hit-from>
+      <Hsp_hit-to>596</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>575</Hsp_identity>
+      <Hsp_positive>575</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>580</Hsp_align-len>
+      <Hsp_qseq>TTAGGTGTTTGATCGGGAATGGTGGGGATTGGTTTAAGAATGTTAATTCGAATTGAGTTAGGTCGTCCTGGAAGATTTTTAGGGGACGATCAGTTATACAACGTCATTGTTACGGCCCATGCTTTAGTTATAATTTTCTTTATGGTTATGCCTTTAATGGTCGGGGGTTTTGGGAATTGGCTTCTTCCATTAATAATAGGTTCTGTAGATATAATTTTTCCGCGACTTAACAATTTGAGATTTTGGTTTCTCCCCTCTTCATTATTTATACTGTTGAGGTCTACTTTTATTGAAAGCGGGTCCGGTACTGGATGGACTTTATATCCCCCTTTGTCTTCATATACAGGACATAGTGGCCCAGCTGTTGACATATCTTTATTTTCTTTACATTTGGCAGGTGCTTCTTCTATTGGTGGATCTATTAACTTTTTAACTAGTATAAAAAATATGCCGGTGGAGGTAATGCGAGGAGAGCGGATAATGTTGTTCTTGTGGTCTATGGTGGTAACAGCTGTTCTTTTATTGGTTTCTTTGCCTGTGCTGGCTGGCGGTATTACTATGTTGATTTTTGATCGTCATT</Hsp_qseq>
+      <Hsp_hseq>TTAGGTGTTTGATCGGGAATGGTGGGGATTGGTTTAAGAATGTTAATTCGAATTGAGTTAGGTCGTCCTGGAAGATTTTTAGGGGACGATCAGCTATATAACGTCATTGTTACGGCCCATGCTTTAGTTATAATTTTCTTTATGGTTATGCCTTTAATGGTCGGGGGTTTTGGGAATTGGCTTCTTCCATTAATAATAGGTTCTGTAGATATAATTTTTCCGCGACTTAACAATTTGAGATTTTGGTTTCTCCCCTCTTCATTATTTATACTGTTGAGGTCTACTTTTATTGAAAGCGGGTCCGGTACTGGATGGACTTTATATCCTCCTTTGTCTTCATATACAGGACATAGTGGCCCAGCTGTTGACATATCTTTATTTTCTTTACATTTGGCAGGTGCTTCTTCTATTGGTGGATCTATTAACTTTTTAACTAGTATAAAAAATATGCCGGTGGAGGTAATGCGAGGAGAGCGGATAATGTTGTTCTTGTGGTCTATGGTGGTAACAGCTGTTCTTTTATTGGTGTCTTTGCCTGTGCTGGCTGGCGGTATTACTATGCTGATTTTTGATCGTCATT</Hsp_hseq>
+      <Hsp_midline>||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| |||| ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| ||||||||||||||||||||||||||||||||| ||||||||||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>8</Hit_num>
+  <Hit_id>gi|1189398886|gb|KX781838.1|</Hit_id>
+  <Hit_def>Modiolus modiolus voucher 16_DHS_007B cytochrome oxidase subunit 1 (COI) gene, partial cds; mitochondrial</Hit_def>
+  <Hit_accession>KX781838</Hit_accession>
+  <Hit_len>604</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>1020.19</Hsp_bit-score>
+      <Hsp_score>1130</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>580</Hsp_query-to>
+      <Hsp_hit-from>17</Hsp_hit-from>
+      <Hsp_hit-to>596</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>574</Hsp_identity>
+      <Hsp_positive>574</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>580</Hsp_align-len>
+      <Hsp_qseq>TTAGGTGTTTGATCGGGAATGGTGGGGATTGGTTTAAGAATGTTAATTCGAATTGAGTTAGGTCGTCCTGGAAGATTTTTAGGGGACGATCAGTTATACAACGTCATTGTTACGGCCCATGCTTTAGTTATAATTTTCTTTATGGTTATGCCTTTAATGGTCGGGGGTTTTGGGAATTGGCTTCTTCCATTAATAATAGGTTCTGTAGATATAATTTTTCCGCGACTTAACAATTTGAGATTTTGGTTTCTCCCCTCTTCATTATTTATACTGTTGAGGTCTACTTTTATTGAAAGCGGGTCCGGTACTGGATGGACTTTATATCCCCCTTTGTCTTCATATACAGGACATAGTGGCCCAGCTGTTGACATATCTTTATTTTCTTTACATTTGGCAGGTGCTTCTTCTATTGGTGGATCTATTAACTTTTTAACTAGTATAAAAAATATGCCGGTGGAGGTAATGCGAGGAGAGCGGATAATGTTGTTCTTGTGGTCTATGGTGGTAACAGCTGTTCTTTTATTGGTTTCTTTGCCTGTGCTGGCTGGCGGTATTACTATGTTGATTTTTGATCGTCATT</Hsp_qseq>
+      <Hsp_hseq>TTAGGTGTTTGATCGGGAATGGTGGGGATTGGTTTAAGAATGTTAATTCGAATTGAGTTAGGTCGTCCTGGAAGATTTTTAGGGGACGATCAGCTGTATAACGTCATTGTTACGGCCCATGCTTTAGTTATAATTTTCTTTATGGTTATGCCTTTAATGGTCGGGGGTTTTGGGAATTGGCTTCTTCCATTAATAATAGGTTCTGTAGATATAATTTTTCCGCGACTTAACAATTTGAGATTTTGGTTTCTCCCCTCTTCATTATTTATACTGTTGAGGTCTACTTTTATTGAAAGCGGGTCCGGTACTGGATGGACTTTATATCCTCCTTTGTCTTCATATACAGGACATAGTGGCCCAGCTGTTGACATATCTTTATTTTCTTTACATTTGGCAGGTGCTTCTTCTATTGGTGGATCTATTAACTTTTTAACTAGTATAAAAAATATGCCGGTGGAGGTAATGCGAGGAGAGCGGATAATGTTGTTCTTGTGGTCTATGGTGGTAACAGCTGTTCTTTTATTGGTGTCTTTGCCTGTGCTGGCTGGCGGTATTACTATGCTGATTTTTGATCGTCATT</Hsp_hseq>
+      <Hsp_midline>||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| | || ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| ||||||||||||||||||||||||||||||||| ||||||||||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>9</Hit_num>
+  <Hit_id>gi|1008910239|gb|KT307121.1|</Hit_id>
+  <Hit_def>Modiolus modiolus voucher 2015_UNE_AC_002 cytochrome oxidase subunit 1 (COI) gene, partial cds; mitochondrial</Hit_def>
+  <Hit_accession>KT307121</Hit_accession>
+  <Hit_len>658</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>1020.19</Hsp_bit-score>
+      <Hsp_score>1130</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>580</Hsp_query-to>
+      <Hsp_hit-from>17</Hsp_hit-from>
+      <Hsp_hit-to>596</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>574</Hsp_identity>
+      <Hsp_positive>574</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>580</Hsp_align-len>
+      <Hsp_qseq>TTAGGTGTTTGATCGGGAATGGTGGGGATTGGTTTAAGAATGTTAATTCGAATTGAGTTAGGTCGTCCTGGAAGATTTTTAGGGGACGATCAGTTATACAACGTCATTGTTACGGCCCATGCTTTAGTTATAATTTTCTTTATGGTTATGCCTTTAATGGTCGGGGGTTTTGGGAATTGGCTTCTTCCATTAATAATAGGTTCTGTAGATATAATTTTTCCGCGACTTAACAATTTGAGATTTTGGTTTCTCCCCTCTTCATTATTTATACTGTTGAGGTCTACTTTTATTGAAAGCGGGTCCGGTACTGGATGGACTTTATATCCCCCTTTGTCTTCATATACAGGACATAGTGGCCCAGCTGTTGACATATCTTTATTTTCTTTACATTTGGCAGGTGCTTCTTCTATTGGTGGATCTATTAACTTTTTAACTAGTATAAAAAATATGCCGGTGGAGGTAATGCGAGGAGAGCGGATAATGTTGTTCTTGTGGTCTATGGTGGTAACAGCTGTTCTTTTATTGGTTTCTTTGCCTGTGCTGGCTGGCGGTATTACTATGTTGATTTTTGATCGTCATT</Hsp_qseq>
+      <Hsp_hseq>TTAGGTGTTTGATCGGGAATGGTGGGGATTGGTTTAAGAATGTTAATTCGAATTGAGTTAGGTCGTCCTGGAAGATTTTTAGGGGACGATCAGCTATATAACGTGATTGTTACGGCCCATGCTTTAGTTATAATTTTCTTTATGGTTATGCCTTTAATGGTCGGGGGTTTTGGGAATTGGCTTCTTCCATTAATAATAGGTTCTGTAGATATAATTTTTCCGCGACTTAACAATTTGAGATTTTGGTTTCTCCCCTCTTCATTATTTATACTGTTGAGGTCTACTTTTATTGAAAGCGGGTCCGGTACTGGATGGACTTTATATCCTCCTTTGTCTTCATATACAGGACATAGTGGCCCAGCTGTTGACATATCTTTATTTTCTTTACATTTGGCAGGTGCTTCTTCTATTGGTGGATCTATTAACTTTTTAACTAGTATAAAAAATATGCCGGTGGAGGTAATGCGAGGAGAGCGGATAATGTTGTTCTTGTGGTCTATGGTGGTAACAGCTGTTCTTTTATTGGTGTCTTTGCCTGTGCTGGCTGGCGGTATTACTATGCTGATTTTTGATCGTCATT</Hsp_hseq>
+      <Hsp_midline>||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| |||| ||||| ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| ||||||||||||||||||||||||||||||||| ||||||||||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>10</Hit_num>
+  <Hit_id>gi|313485698|gb|HM884246.1|</Hit_id>
+  <Hit_def>Modiolus modiolus voucher SOP0042 cytochrome oxidase subunit 1 (COI) gene, partial cds; mitochondrial</Hit_def>
+  <Hit_accession>HM884246</Hit_accession>
+  <Hit_len>658</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>1020.19</Hsp_bit-score>
+      <Hsp_score>1130</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>580</Hsp_query-to>
+      <Hsp_hit-from>17</Hsp_hit-from>
+      <Hsp_hit-to>596</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>574</Hsp_identity>
+      <Hsp_positive>574</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>580</Hsp_align-len>
+      <Hsp_qseq>TTAGGTGTTTGATCGGGAATGGTGGGGATTGGTTTAAGAATGTTAATTCGAATTGAGTTAGGTCGTCCTGGAAGATTTTTAGGGGACGATCAGTTATACAACGTCATTGTTACGGCCCATGCTTTAGTTATAATTTTCTTTATGGTTATGCCTTTAATGGTCGGGGGTTTTGGGAATTGGCTTCTTCCATTAATAATAGGTTCTGTAGATATAATTTTTCCGCGACTTAACAATTTGAGATTTTGGTTTCTCCCCTCTTCATTATTTATACTGTTGAGGTCTACTTTTATTGAAAGCGGGTCCGGTACTGGATGGACTTTATATCCCCCTTTGTCTTCATATACAGGACATAGTGGCCCAGCTGTTGACATATCTTTATTTTCTTTACATTTGGCAGGTGCTTCTTCTATTGGTGGATCTATTAACTTTTTAACTAGTATAAAAAATATGCCGGTGGAGGTAATGCGAGGAGAGCGGATAATGTTGTTCTTGTGGTCTATGGTGGTAACAGCTGTTCTTTTATTGGTTTCTTTGCCTGTGCTGGCTGGCGGTATTACTATGTTGATTTTTGATCGTCATT</Hsp_qseq>
+      <Hsp_hseq>TTAGGTGTTTGATCGGGAATGGTGGGGATTGGTTTAAGAATGTTAATTCGAATTGAGTTAGGTCGTCCTGGAAGATTTTTAGGGGACGATCAGCTGTATAACGTCATTGTTACGGCCCATGCTTTAGTTATAATTTTCTTTATGGTTATGCCTTTAATGGTCGGGGGTTTTGGGAATTGGCTTCTTCCATTAATAATAGGTTCTGTAGATATAATTTTTCCGCGACTTAACAATTTGAGATTTTGGTTTCTCCCCTCTTCATTATTTATACTGTTGAGGTCTACTTTTATTGAAAGCGGGTCCGGTACTGGATGGACTTTATATCCTCCTTTGTCTTCATATACAGGACATAGTGGCCCAGCTGTTGACATATCTTTATTTTCTTTACATTTGGCAGGTGCTTCTTCTATTGGTGGATCTATTAACTTTTTAACTAGTATAAAAAATATGCCGGTGGAGGTAATGCGAGGAGAGCGGATAATGTTGTTCTTGTGGTCTATGGTGGTAACAGCTGTTCTTTTATTGGTGTCTTTGCCTGTGCTGGCTGGCGGTATTACTATGCTGATTTTTGATCGTCATT</Hsp_hseq>
+      <Hsp_midline>||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| | || ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| ||||||||||||||||||||||||||||||||| ||||||||||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>11</Hit_num>
+  <Hit_id>gi|1134945633|ref|NC_033537.1|</Hit_id>
+  <Hit_def>Modiolus modiolus mitochondrion, complete genome &gt;gi|1130479235|gb|KX821782.1| Modiolus modiolus mitochondrion, complete genome</Hit_def>
+  <Hit_accession>NC_033537</Hit_accession>
+  <Hit_len>15816</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>1015.68</Hsp_bit-score>
+      <Hsp_score>1125</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>580</Hsp_query-to>
+      <Hsp_hit-from>61</Hsp_hit-from>
+      <Hsp_hit-to>640</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>573</Hsp_identity>
+      <Hsp_positive>573</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>580</Hsp_align-len>
+      <Hsp_qseq>TTAGGTGTTTGATCGGGAATGGTGGGGATTGGTTTAAGAATGTTAATTCGAATTGAGTTAGGTCGTCCTGGAAGATTTTTAGGGGACGATCAGTTATACAACGTCATTGTTACGGCCCATGCTTTAGTTATAATTTTCTTTATGGTTATGCCTTTAATGGTCGGGGGTTTTGGGAATTGGCTTCTTCCATTAATAATAGGTTCTGTAGATATAATTTTTCCGCGACTTAACAATTTGAGATTTTGGTTTCTCCCCTCTTCATTATTTATACTGTTGAGGTCTACTTTTATTGAAAGCGGGTCCGGTACTGGATGGACTTTATATCCCCCTTTGTCTTCATATACAGGACATAGTGGCCCAGCTGTTGACATATCTTTATTTTCTTTACATTTGGCAGGTGCTTCTTCTATTGGTGGATCTATTAACTTTTTAACTAGTATAAAAAATATGCCGGTGGAGGTAATGCGAGGAGAGCGGATAATGTTGTTCTTGTGGTCTATGGTGGTAACAGCTGTTCTTTTATTGGTTTCTTTGCCTGTGCTGGCTGGCGGTATTACTATGTTGATTTTTGATCGTCATT</Hsp_qseq>
+      <Hsp_hseq>TTAGGTGTTTGATCGGGAATGGTGGGGATTGGTTTAAGAATGTTAATTCGAATTGAGTTAGGTCGTCCTGGAAGATTTTTAGGGGACGATCAGCTATATAACGTCATTGTTACGGCCCATGCTTTAGTTATAATTTTCTTTATGGTTATGCCTTTAATGGTCGGGGGTTTTGGGAATTGGCTTCTTCCATTAATAATAGGTTCTGTAGATATAATTTTTCCGCGACTTAACAATTTGAGATTTTGGTTTCTCCCCTCTTCATTATTTATACTGTTGAGGTCTACTTTTATTGAAAGCGGGTCCGGTACTGGATGGACTTTATACCCTCCTTTGTCTTCATATACAGGACATAGTGGCCCAGCTGTTGACATATCTTTATTTTCTTTACATTTGGCAGGTGCTTCTTCTATTGGTGGATCTATTAACTTTTTAACTAGTATAAAAAATATGCCGGTGGAGGTAATGCGAGGAGAGCGGATAATGTTGTTCTTGTGGTCTATGGTGGTAACAGCTGTTCTTTTATTGGTGTCTTTGCCCGTGCTGGCTGGCGGTATTACTATGCTGATTTTTGATCGTCATT</Hsp_hseq>
+      <Hsp_midline>||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| |||| |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| || |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| |||||||| |||||||||||||||||||||||| ||||||||||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>12</Hit_num>
+  <Hit_id>gi|1877092413|gb|MT735996.1|</Hit_id>
+  <Hit_def>Modiolus modiolus isolate WSK_HM056 cytochrome oxidase subunit 1 (COI) gene, partial cds; mitochondrial</Hit_def>
+  <Hit_accession>MT735996</Hit_accession>
+  <Hit_len>603</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>1014.78</Hsp_bit-score>
+      <Hsp_score>1124</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>9</Hsp_query-from>
+      <Hsp_query-to>580</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>572</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>568</Hsp_identity>
+      <Hsp_positive>568</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>572</Hsp_align-len>
+      <Hsp_qseq>TTGATCGGGAATGGTGGGGATTGGTTTAAGAATGTTAATTCGAATTGAGTTAGGTCGTCCTGGAAGATTTTTAGGGGACGATCAGTTATACAACGTCATTGTTACGGCCCATGCTTTAGTTATAATTTTCTTTATGGTTATGCCTTTAATGGTCGGGGGTTTTGGGAATTGGCTTCTTCCATTAATAATAGGTTCTGTAGATATAATTTTTCCGCGACTTAACAATTTGAGATTTTGGTTTCTCCCCTCTTCATTATTTATACTGTTGAGGTCTACTTTTATTGAAAGCGGGTCCGGTACTGGATGGACTTTATATCCCCCTTTGTCTTCATATACAGGACATAGTGGCCCAGCTGTTGACATATCTTTATTTTCTTTACATTTGGCAGGTGCTTCTTCTATTGGTGGATCTATTAACTTTTTAACTAGTATAAAAAATATGCCGGTGGAGGTAATGCGAGGAGAGCGGATAATGTTGTTCTTGTGGTCTATGGTGGTAACAGCTGTTCTTTTATTGGTTTCTTTGCCTGTGCTGGCTGGCGGTATTACTATGTTGATTTTTGATCGTCATT</Hsp_qseq>
+      <Hsp_hseq>TTGATCGGGAATGGTGGGGATTGGTTTAAGAATGTTAATTCGAATTGAGTTAGGTCGTCCTGGAAGATTTTTAGGGGACGATCAGCTATACAACGTCATTGTTACGGCCCATGCTTTAGTTATAATTTTCTTTATGGTTATGCCTTTAATGGTCGGGGGTTTTGGGAATTGGCTTCTTCCATTAATAATAGGTTCTGTAGATATAATTTTTCCGCGACTTAACAATTTGAGATTTTGGTTTCTCCCCTCTTCATTATTTATACTGTTGAGGTCTACTTTTATTGAAAGCGGGTCCGGTACTGGATGGACTTTATATCCTCCTTTGTCTTCATATACAGGACATAGTGGCCCAGCTGTTGACATATCTTTATTTTCTTTACATTTGGCAGGTGCTTCTTCTATTGGTGGATCTATTAACTTTTTAACTAGTATAAAAAATATGCCGGTGGAGGTAATGCGAGGAGAGCGGATAATGTTGTTCTTGTGGTCTATGGTGGTAACAGCTGTTCTTTTATTGGTGTCTTTGCCTGTGCTGGCTGGCGGTATTACTATGCTGATTTTTGATCGTCATT</Hsp_hseq>
+      <Hsp_midline>||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| ||||||||||||||||||||||||||||||||| ||||||||||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>13</Hit_num>
+  <Hit_id>gi|1877092383|gb|MT735981.1|</Hit_id>
+  <Hit_def>Modiolus modiolus isolate TRO_HM181 cytochrome oxidase subunit 1 (COI) gene, partial cds; mitochondrial</Hit_def>
+  <Hit_accession>MT735981</Hit_accession>
+  <Hit_len>603</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>1014.78</Hsp_bit-score>
+      <Hsp_score>1124</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>9</Hsp_query-from>
+      <Hsp_query-to>580</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>572</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>568</Hsp_identity>
+      <Hsp_positive>568</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>572</Hsp_align-len>
+      <Hsp_qseq>TTGATCGGGAATGGTGGGGATTGGTTTAAGAATGTTAATTCGAATTGAGTTAGGTCGTCCTGGAAGATTTTTAGGGGACGATCAGTTATACAACGTCATTGTTACGGCCCATGCTTTAGTTATAATTTTCTTTATGGTTATGCCTTTAATGGTCGGGGGTTTTGGGAATTGGCTTCTTCCATTAATAATAGGTTCTGTAGATATAATTTTTCCGCGACTTAACAATTTGAGATTTTGGTTTCTCCCCTCTTCATTATTTATACTGTTGAGGTCTACTTTTATTGAAAGCGGGTCCGGTACTGGATGGACTTTATATCCCCCTTTGTCTTCATATACAGGACATAGTGGCCCAGCTGTTGACATATCTTTATTTTCTTTACATTTGGCAGGTGCTTCTTCTATTGGTGGATCTATTAACTTTTTAACTAGTATAAAAAATATGCCGGTGGAGGTAATGCGAGGAGAGCGGATAATGTTGTTCTTGTGGTCTATGGTGGTAACAGCTGTTCTTTTATTGGTTTCTTTGCCTGTGCTGGCTGGCGGTATTACTATGTTGATTTTTGATCGTCATT</Hsp_qseq>
+      <Hsp_hseq>TTGATCGGGAATGGTGGGGATTGGTTTAAGAATGTTAATTCGAATTGAGTTAGGTCGTCCTGGAAGATTTTTAGGGGACGATCAGCTATATAACGTCATTGTTACGGCCCATGCTTTAGTTATAATTTTCTTTATGGTTATGCCTTTAATGGTCGGGGGTTTTGGGAATTGGCTTCTTCCATTAATAATAGGTTCTGTAGATATAATTTTTCCGCGACTTAACAATTTGAGATTTTGGTTTCTCCCCTCTTCATTATTTATACTGTTGAGGTCTACTTTTATTGAAAGCGGGTCCGGTACTGGATGGACTTTATATCCCCCTTTGTCTTCATATACAGGACATAGTGGCCCAGCTGTTGACATATCTTTATTTTCTTTACATTTGGCAGGTGCTTCTTCTATTGGTGGATCTATTAACTTTTTAACTAGTATAAAAAATATGCCGGTGGAGGTAATGCGAGGAGAGCGGATAATGTTGTTCTTGTGGTCTATGGTGGTAACAGCTGTTCTTTTATTGGTGTCTTTGCCTGTGCTGGCTGGCGGTATTACTATGCTGATTTTTGATCGTCATT</Hsp_hseq>
+      <Hsp_midline>||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| |||| |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| ||||||||||||||||||||||||||||||||| ||||||||||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>14</Hit_num>
+  <Hit_id>gi|2586927874|gb|OR618288.1|</Hit_id>
+  <Hit_def>Modiolus modiolus isolate 9 cytochrome c oxidase subunit I (COX1) gene, partial cds; mitochondrial</Hit_def>
+  <Hit_accession>OR618288</Hit_accession>
+  <Hit_len>611</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>1010.27</Hsp_bit-score>
+      <Hsp_score>1119</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>9</Hsp_query-from>
+      <Hsp_query-to>580</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>572</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>567</Hsp_identity>
+      <Hsp_positive>567</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>572</Hsp_align-len>
+      <Hsp_qseq>TTGATCGGGAATGGTGGGGATTGGTTTAAGAATGTTAATTCGAATTGAGTTAGGTCGTCCTGGAAGATTTTTAGGGGACGATCAGTTATACAACGTCATTGTTACGGCCCATGCTTTAGTTATAATTTTCTTTATGGTTATGCCTTTAATGGTCGGGGGTTTTGGGAATTGGCTTCTTCCATTAATAATAGGTTCTGTAGATATAATTTTTCCGCGACTTAACAATTTGAGATTTTGGTTTCTCCCCTCTTCATTATTTATACTGTTGAGGTCTACTTTTATTGAAAGCGGGTCCGGTACTGGATGGACTTTATATCCCCCTTTGTCTTCATATACAGGACATAGTGGCCCAGCTGTTGACATATCTTTATTTTCTTTACATTTGGCAGGTGCTTCTTCTATTGGTGGATCTATTAACTTTTTAACTAGTATAAAAAATATGCCGGTGGAGGTAATGCGAGGAGAGCGGATAATGTTGTTCTTGTGGTCTATGGTGGTAACAGCTGTTCTTTTATTGGTTTCTTTGCCTGTGCTGGCTGGCGGTATTACTATGTTGATTTTTGATCGTCATT</Hsp_qseq>
+      <Hsp_hseq>TTGATCGGGAATGGTGGGGATTGGTTTAAGAATGTTAATTCGAATTGAGTTAGGTCGTCCTGGAAGATTTTTAGGGGACGATCAGCTATATAACGTCATTGTTACGGCCCATGCTTTAGTTATAATTTTCTTTATGGTTATGCCTTTAATGGTCGGGGGTTTTGGGAATTGGCTTCTTCCATTAATAATAGGTTCTGTAGATATAATTTTTCCGCGACTTAACAATTTGAGATTTTGGTTTCTCCCCTCTTCATTATTTATACTGTTGAGGTCTACTTTTATTGAAAGCGGGTCCGGTACTGGATGGACTTTATATCCTCCTTTGTCTTCATATACAGGACATAGTGGCCCAGCTGTTGACATATCTTTATTTTCTTTACATTTGGCAGGTGCTTCTTCTATTGGTGGATCTATTAACTTTTTAACTAGTATAAAAAATATGCCGGTGGAGGTAATGCGAGGAGAGCGGATAATGTTGTTCTTGTGGTCTATGGTGGTAACAGCTGTTCTTTTATTGGTGTCTTTGCCTGTGCTGGCTGGCGGTATTACTATGCTGATTTTTGATCGTCATT</Hsp_hseq>
+      <Hsp_midline>||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| |||| ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| ||||||||||||||||||||||||||||||||| ||||||||||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>15</Hit_num>
+  <Hit_id>gi|1877092305|gb|MT735942.1|</Hit_id>
+  <Hit_def>Modiolus modiolus isolate ORE_HM110 cytochrome oxidase subunit 1 (COI) gene, partial cds; mitochondrial</Hit_def>
+  <Hit_accession>MT735942</Hit_accession>
+  <Hit_len>603</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>1010.27</Hsp_bit-score>
+      <Hsp_score>1119</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>9</Hsp_query-from>
+      <Hsp_query-to>580</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>572</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>567</Hsp_identity>
+      <Hsp_positive>567</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>572</Hsp_align-len>
+      <Hsp_qseq>TTGATCGGGAATGGTGGGGATTGGTTTAAGAATGTTAATTCGAATTGAGTTAGGTCGTCCTGGAAGATTTTTAGGGGACGATCAGTTATACAACGTCATTGTTACGGCCCATGCTTTAGTTATAATTTTCTTTATGGTTATGCCTTTAATGGTCGGGGGTTTTGGGAATTGGCTTCTTCCATTAATAATAGGTTCTGTAGATATAATTTTTCCGCGACTTAACAATTTGAGATTTTGGTTTCTCCCCTCTTCATTATTTATACTGTTGAGGTCTACTTTTATTGAAAGCGGGTCCGGTACTGGATGGACTTTATATCCCCCTTTGTCTTCATATACAGGACATAGTGGCCCAGCTGTTGACATATCTTTATTTTCTTTACATTTGGCAGGTGCTTCTTCTATTGGTGGATCTATTAACTTTTTAACTAGTATAAAAAATATGCCGGTGGAGGTAATGCGAGGAGAGCGGATAATGTTGTTCTTGTGGTCTATGGTGGTAACAGCTGTTCTTTTATTGGTTTCTTTGCCTGTGCTGGCTGGCGGTATTACTATGTTGATTTTTGATCGTCATT</Hsp_qseq>
+      <Hsp_hseq>TTGATCGGGAATGGTGGGGATTGGTTTAAGAATGTTAATTCGAATTGAGTTAGGTCGTCCTGGAAGATTTTTAGGGGACGATCAGCTATATAACGTCATTGTTACGGCCCATGCTTTAGTTATAATTTTCTTTATGGTTATGCCTTTAATGGTCGGGGGTTTTGGGAATTGGCTTCTTCCATTAATAATAGGTTCTGTAGATATAATTTTTCCGCGACTTAACAATTTGAGATTTTGGTTTCTCCCCTCTTCATTATTTATACTGTTGAGGTCTACTTTTATTGAAAGCGGGTCCGGTACTGGATGGACTTTATATCCACCTTTGTCTTCATATACAGGACATAGTGGCCCAGCTGTTGACATATCTTTATTTTCTTTACATTTGGCAGGTGCTTCTTCTATTGGTGGATCTATTAACTTTTTAACTAGTATAAAAAATATGCCGGTGGAGGTAATGCGAGGAGAGCGGATAATGTTGTTCTTGTGGTCTATGGTGGTAACAGCTGTTCTTTTATTGGTGTCTTTGCCTGTGCTGGCTGGCGGTATTACTATGCTGATTTTTGATCGTCATT</Hsp_hseq>
+      <Hsp_midline>||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| |||| ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| ||||||||||||||||||||||||||||||||| ||||||||||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>16</Hit_num>
+  <Hit_id>gi|1877092263|gb|MT735921.1|</Hit_id>
+  <Hit_def>Modiolus modiolus isolate ORE_HM089 cytochrome oxidase subunit 1 (COI) gene, partial cds; mitochondrial &gt;gi|1877092265|gb|MT735922.1| Modiolus modiolus isolate ORE_HM090 cytochrome oxidase subunit 1 (COI) gene, partial cds; mitochondrial &gt;gi|1877092267|gb|MT735923.1| Modiolus modiolus isolate ORE_HM091 cytochrome oxidase subunit 1 (COI) gene, partial cds; mitochondrial &gt;gi|1877092269|gb|MT735924.1| Modiolus modiolus isolate ORE_HM092 cytochrome oxidase subunit 1 (COI) gene, partial cds; mitochondrial &gt;gi|1877092271|gb|MT735925.1| Modiolus modiolus isolate ORE_HM093 cytochrome oxidase subunit 1 (COI) gene, partial cds; mitochondrial &gt;gi|1877092277|gb|MT735928.1| Modiolus modiolus isolate ORE_HM096 cytochrome oxidase subunit 1 (COI) gene, partial cds; mitochondrial &gt;gi|1877092281|gb|MT735930.1| Modiolus modiolus isolate ORE_HM098 cytochrome oxidase subunit 1 (COI) gene, partial cds; mitochondrial &gt;gi|1877092283|gb|MT735931.1| Modiolus modiolus isolate ORE_HM099 cytochrome oxidase subunit 1 (COI) gene, partial cds; mitochondrial &gt;gi|1877092285|gb|MT735932.1| Modiolus modiolus isolate ORE_HM100 cytochrome oxidase subunit 1 (COI) gene, partial cds; mitochondrial &gt;gi|1877092287|gb|MT735933.1| Modiolus modiolus isolate ORE_HM101 cytochrome oxidase subunit 1 (COI) gene, partial cds; mitochondrial &gt;gi|1877092291|gb|MT735935.1| Modiolus modiolus isolate ORE_HM103 cytochrome oxidase subunit 1 (COI) gene, partial cds; mitochondrial &gt;gi|1877092295|gb|MT735937.1| Modiolus modiolus isolate ORE_HM105 cytochrome oxidase subunit 1 (COI) gene, partial cds; mitochondrial &gt;gi|1877092297|gb|MT735938.1| Modiolus modiolus isolate ORE_HM106 cytochrome oxidase subunit 1 (COI) gene, partial cds; mitochondrial &gt;gi|1877092301|gb|MT735940.1| Modiolus modiolus isolate ORE_HM108 cytochrome oxidase subunit 1 (COI) gene, partial cds; mitochondrial &gt;gi|1877092307|gb|MT735943.1| Modiolus modiolus isolate ORE_HM111 cytochrome oxidase subunit 1 (COI) gene, partial cds; mitochondrial &gt;gi|1877092317|gb|MT735948.1| Modiolus modiolus isolate SCO_HM008 cytochrome oxidase subunit 1 (COI) gene, partial cds; mitochondrial &gt;gi|1877092323|gb|MT735951.1| Modiolus modiolus isolate SCO_HM011 cytochrome oxidase subunit 1 (COI) gene, partial cds; mitochondrial &gt;gi|1877092325|gb|MT735952.1| Modiolus modiolus isolate SCO_HM012 cytochrome oxidase subunit 1 (COI) gene, partial cds; mitochondrial &gt;gi|1877092329|gb|MT735954.1| Modiolus modiolus isolate SCO_HM014 cytochrome oxidase subunit 1 (COI) gene, partial cds; mitochondrial &gt;gi|1877092337|gb|MT735958.1| Modiolus modiolus isolate SCO_HM018 cytochrome oxidase subunit 1 (COI) gene, partial cds; mitochondrial &gt;gi|1877092339|gb|MT735959.1| Modiolus modiolus isolate SCO_HM019 cytochrome oxidase subunit 1 (COI) gene, partial cds; mitochondrial &gt;gi|1877092349|gb|MT735964.1| Modiolus modiolus isolate SCO_HM148 cytochrome oxidase subunit 1 (COI) gene, partial cds; mitochondrial &gt;gi|1877092353|gb|MT735966.1| Modiolus modiolus isolate SCO_HM150 cytochrome oxidase subunit 1 (COI) gene, partial cds; mitochondrial &gt;gi|1877092355|gb|MT735967.1| Modiolus modiolus isolate SCO_HM151 cytochrome oxidase subunit 1 (COI) gene, partial cds; mitochondrial &gt;gi|1877092361|gb|MT735970.1| Modiolus modiolus isolate SCO_HM154 cytochrome oxidase subunit 1 (COI) gene, partial cds; mitochondrial &gt;gi|1877092363|gb|MT735971.1| Modiolus modiolus isolate SCO_HM155 cytochrome oxidase subunit 1 (COI) gene, partial cds; mitochondrial &gt;gi|1877092371|gb|MT735975.1| Modiolus modiolus isolate TRO_HM175 cytochrome oxidase subunit 1 (COI) gene, partial cds; mitochondrial &gt;gi|1877092379|gb|MT735979.1| Modiolus modiolus isolate TRO_HM179 cytochrome oxidase subunit 1 (COI) gene, partial cds; mitochondrial &gt;gi|1877092381|gb|MT735980.1| Modiolus modiolus isolate TRO_HM180 cytochrome oxidase subunit 1 (COI) gene, partial cds; mitochondrial &gt;gi|1877092385|gb|MT735982.1| Modiolus modiolus isolate TRO_HM182 cytochrome oxidase subunit 1 (COI) gene, partial cds; mitochondrial &gt;gi|1877092387|gb|MT735983.1| Modiolus modiolus isolate TRO_HM183 cytochrome oxidase subunit 1 (COI) gene, partial cds; mitochondrial &gt;gi|1877092389|gb|MT735984.1| Modiolus modiolus isolate TRO_HM184 cytochrome oxidase subunit 1 (COI) gene, partial cds; mitochondrial &gt;gi|1877092391|gb|MT735985.1| Modiolus modiolus isolate TRO_HM185 cytochrome oxidase subunit 1 (COI) gene, partial cds; mitochondrial &gt;gi|1877092393|gb|MT735986.1| Modiolus modiolus isolate TUV_HM077 cytochrome oxidase subunit 1 (COI) gene, partial cds; mitochondrial &gt;gi|1877092395|gb|MT735987.1| Modiolus modiolus isolate TUV_HM078 cytochrome oxidase subunit 1 (COI) gene, partial cds; mitochondrial &gt;gi|1877092397|gb|MT735988.1| Modiolus modiolus isolate TUV_HM079 cytochrome oxidase subunit 1 (COI) gene, partial cds; mitochondrial &gt;gi|1877092399|gb|MT735989.1| Modiolus modiolus isolate TUV_HM080 cytochrome oxidase subunit 1 (COI) gene, partial cds; mitochondrial &gt;gi|1877092401|gb|MT735990.1| Modiolus modiolus isolate TUV_HM170 cytochrome oxidase subunit 1 (COI) gene, partial cds; mitochondrial &gt;gi|1877092405|gb|MT735992.1| Modiolus modiolus isolate TUV_HM172 cytochrome oxidase subunit 1 (COI) gene, partial cds; mitochondrial &gt;gi|1877092407|gb|MT735993.1| Modiolus modiolus isolate TUV_HM173 cytochrome oxidase subunit 1 (COI) gene, partial cds; mitochondrial &gt;gi|1877092417|gb|MT735998.1| Modiolus modiolus isolate WSK_HM058 cytochrome oxidase subunit 1 (COI) gene, partial cds; mitochondrial &gt;gi|1877092419|gb|MT735999.1| Modiolus modiolus isolate WSK_HM059 cytochrome oxidase subunit 1 (COI) gene, partial cds; mitochondrial &gt;gi|1877092423|gb|MT736001.1| Modiolus modiolus isolate WSK_HM062 cytochrome oxidase subunit 1 (COI) gene, partial cds; mitochondrial &gt;gi|1877092425|gb|MT736002.1| Modiolus modiolus isolate WSK_HM063 cytochrome oxidase subunit 1 (COI) gene, partial cds; mitochondrial &gt;gi|1877092429|gb|MT736004.1| Modiolus modiolus isolate WSK_HM065 cytochrome oxidase subunit 1 (COI) gene, partial cds; mitochondrial &gt;gi|1877092441|gb|MT736010.1| Modiolus modiolus isolate WSK_HM071 cytochrome oxidase subunit 1 (COI) gene, partial cds; mitochondrial &gt;gi|1877092455|gb|MT736017.1| Modiolus modiolus isolate WSK_HM221 cytochrome oxidase subunit 1 (COI) gene, partial cds; mitochondrial &gt;gi|1877092469|gb|MT736024.1| Modiolus modiolus isolate NFL_HM023 cytochrome oxidase subunit 1 (COI) gene, partial cds; mitochondrial &gt;gi|1877092477|gb|MT736028.1| Modiolus modiolus isolate NFL_HM132 cytochrome oxidase subunit 1 (COI) gene, partial cds; mitochondrial &gt;gi|1877092489|gb|MT736034.1| Modiolus modiolus isolate NFL_HM138 cytochrome oxidase subunit 1 (COI) gene, partial cds; mitochondrial &gt;gi|1877092505|gb|MT736042.1| Modiolus modiolus isolate USM_HM118 cytochrome oxidase subunit 1 (COI) gene, partial cds; mitochondrial &gt;gi|1877092515|gb|MT736047.1| Modiolus modiolus isolate USMR_HM123 cytochrome oxidase subunit 1 (COI) gene, partial cds; mitochondrial &gt;gi|1877092521|gb|MT736050.1| Modiolus modiolus isolate USMR_HM126 cytochrome oxidase subunit 1 (COI) gene, partial cds; mitochondrial &gt;gi|1877092527|gb|MT736053.1| Modiolus modiolus isolate USMB_HM198 cytochrome oxidase subunit 1 (COI) gene, partial cds; mitochondrial &gt;gi|1877092529|gb|MT736054.1| Modiolus modiolus isolate USMB_HM199 cytochrome oxidase subunit 1 (COI) gene, partial cds; mitochondrial &gt;gi|1877092531|gb|MT736055.1| Modiolus modiolus isolate USMB_HM200 cytochrome oxidase subunit 1 (COI) gene, partial cds; mitochondrial &gt;gi|1877092535|gb|MT736057.1| Modiolus modiolus isolate USM_HM202 cytochrome oxidase subunit 1 (COI) gene, partial cds; mitochondrial &gt;gi|1877092537|gb|MT736058.1| Modiolus modiolus isolate USM_HM203 cytochrome oxidase subunit 1 (COI) gene, partial cds; mitochondrial &gt;gi|1877092539|gb|MT736059.1| Modiolus modiolus isolate USM_HM204 cytochrome oxidase subunit 1 (COI) gene, partial cds; mitochondrial &gt;gi|1877092543|gb|MT736061.1| Modiolus modiolus isolate USM_HM206 cytochrome oxidase subunit 1 (COI) gene, partial cds; mitochondrial &gt;gi|1877092545|gb|MT736062.1| Modiolus modiolus isolate USM_HM208 cytochrome oxidase subunit 1 (COI) gene, partial cds; mitochondrial &gt;gi|1877092549|gb|MT736064.1| Modiolus modiolus isolate USM_HM210 cytochrome oxidase subunit 1 (COI) gene, partial cds; mitochondrial</Hit_def>
+  <Hit_accession>MT735921</Hit_accession>
+  <Hit_len>603</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>1010.27</Hsp_bit-score>
+      <Hsp_score>1119</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>9</Hsp_query-from>
+      <Hsp_query-to>580</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>572</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>567</Hsp_identity>
+      <Hsp_positive>567</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>572</Hsp_align-len>
+      <Hsp_qseq>TTGATCGGGAATGGTGGGGATTGGTTTAAGAATGTTAATTCGAATTGAGTTAGGTCGTCCTGGAAGATTTTTAGGGGACGATCAGTTATACAACGTCATTGTTACGGCCCATGCTTTAGTTATAATTTTCTTTATGGTTATGCCTTTAATGGTCGGGGGTTTTGGGAATTGGCTTCTTCCATTAATAATAGGTTCTGTAGATATAATTTTTCCGCGACTTAACAATTTGAGATTTTGGTTTCTCCCCTCTTCATTATTTATACTGTTGAGGTCTACTTTTATTGAAAGCGGGTCCGGTACTGGATGGACTTTATATCCCCCTTTGTCTTCATATACAGGACATAGTGGCCCAGCTGTTGACATATCTTTATTTTCTTTACATTTGGCAGGTGCTTCTTCTATTGGTGGATCTATTAACTTTTTAACTAGTATAAAAAATATGCCGGTGGAGGTAATGCGAGGAGAGCGGATAATGTTGTTCTTGTGGTCTATGGTGGTAACAGCTGTTCTTTTATTGGTTTCTTTGCCTGTGCTGGCTGGCGGTATTACTATGTTGATTTTTGATCGTCATT</Hsp_qseq>
+      <Hsp_hseq>TTGATCGGGAATGGTGGGGATTGGTTTAAGAATGTTAATTCGAATTGAGTTAGGTCGTCCTGGAAGATTTTTAGGGGACGATCAGCTATATAACGTCATTGTTACGGCCCATGCTTTAGTTATAATTTTCTTTATGGTTATGCCTTTAATGGTCGGGGGTTTTGGGAATTGGCTTCTTCCATTAATAATAGGTTCTGTAGATATAATTTTTCCGCGACTTAACAATTTGAGATTTTGGTTTCTCCCCTCTTCATTATTTATACTGTTGAGGTCTACTTTTATTGAAAGCGGGTCCGGTACTGGATGGACTTTATATCCTCCTTTGTCTTCATATACAGGACATAGTGGCCCAGCTGTTGACATATCTTTATTTTCTTTACATTTGGCAGGTGCTTCTTCTATTGGTGGATCTATTAACTTTTTAACTAGTATAAAAAATATGCCGGTGGAGGTAATGCGAGGAGAGCGGATAATGTTGTTCTTGTGGTCTATGGTGGTAACAGCTGTTCTTTTATTGGTGTCTTTGCCTGTGCTGGCTGGCGGTATTACTATGCTGATTTTTGATCGTCATT</Hsp_hseq>
+      <Hsp_midline>||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| |||| ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| ||||||||||||||||||||||||||||||||| ||||||||||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>17</Hit_num>
+  <Hit_id>gi|485099903|gb|KC119372.1|</Hit_id>
+  <Hit_def>Modiolus modiolus isolate Mo37 cytochrome c oxidase subunit 1 (CO1) gene, partial cds; mitochondrial</Hit_def>
+  <Hit_accession>KC119372</Hit_accession>
+  <Hit_len>598</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>1007.57</Hsp_bit-score>
+      <Hsp_score>1116</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>13</Hsp_query-from>
+      <Hsp_query-to>580</Hsp_query-to>
+      <Hsp_hit-from>598</Hsp_hit-from>
+      <Hsp_hit-to>31</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>-1</Hsp_hit-frame>
+      <Hsp_identity>564</Hsp_identity>
+      <Hsp_positive>564</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>568</Hsp_align-len>
+      <Hsp_qseq>TCGGGAATGGTGGGGATTGGTTTAAGAATGTTAATTCGAATTGAGTTAGGTCGTCCTGGAAGATTTTTAGGGGACGATCAGTTATACAACGTCATTGTTACGGCCCATGCTTTAGTTATAATTTTCTTTATGGTTATGCCTTTAATGGTCGGGGGTTTTGGGAATTGGCTTCTTCCATTAATAATAGGTTCTGTAGATATAATTTTTCCGCGACTTAACAATTTGAGATTTTGGTTTCTCCCCTCTTCATTATTTATACTGTTGAGGTCTACTTTTATTGAAAGCGGGTCCGGTACTGGATGGACTTTATATCCCCCTTTGTCTTCATATACAGGACATAGTGGCCCAGCTGTTGACATATCTTTATTTTCTTTACATTTGGCAGGTGCTTCTTCTATTGGTGGATCTATTAACTTTTTAACTAGTATAAAAAATATGCCGGTGGAGGTAATGCGAGGAGAGCGGATAATGTTGTTCTTGTGGTCTATGGTGGTAACAGCTGTTCTTTTATTGGTTTCTTTGCCTGTGCTGGCTGGCGGTATTACTATGTTGATTTTTGATCGTCATT</Hsp_qseq>
+      <Hsp_hseq>TCGGGAATGGTGGGGATTGGTTTAAGAATGTTAATTCGAATTGAGTTAGGTCGTCCTGGAAGATTTTTAGGGGACGATCAGTTATATAACGTCATTGTTACGGCCCATGCTTTAGTTATAATTTTCTTTATGGTTATGCCTTTAATGGTCGGGGGTTTTGGGAATTGGCTTCTTCCATTAATAATAGGTTCTGTAGATATAATTTTTCCGCGACTTAACAATTTGAGATTTTGGTTTCTCCCCTCTTCATTATTTATACTGTTGAGGTCTACTTTTATTGAAAGCGGGTCCGGTACTGGATGGACTTTATATCCTCCTTTGTCTTCATATACAGGACATAGTGGCCCAGCTGTTGACATATCTTTATTTTCTTTACATTTGGCAGGTGCTTCTTCTATTGGTGGATCTATTAACTTTTTAACTAGTATAAAAAATATGCCGGTGGAGGTAATGCGAGGAGAGCGGATAATGTTGTTCTTGTGGTCTATGGTGGTAACAGCTGTTCTTTTATTGGTGTCTTTGCCTGTGCTGGCTGGCGGTATTACTATGCTGATTTTTGATCGTCATT</Hsp_hseq>
+      <Hsp_midline>|||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| ||||||||||||||||||||||||||||||||| ||||||||||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>18</Hit_num>
+  <Hit_id>gi|1877092523|gb|MT736051.1|</Hit_id>
+  <Hit_def>Modiolus modiolus isolate USMR_HM127 cytochrome oxidase subunit 1 (COI) gene, partial cds; mitochondrial</Hit_def>
+  <Hit_accession>MT736051</Hit_accession>
+  <Hit_len>603</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>1005.76</Hsp_bit-score>
+      <Hsp_score>1114</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>9</Hsp_query-from>
+      <Hsp_query-to>580</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>572</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>566</Hsp_identity>
+      <Hsp_positive>566</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>572</Hsp_align-len>
+      <Hsp_qseq>TTGATCGGGAATGGTGGGGATTGGTTTAAGAATGTTAATTCGAATTGAGTTAGGTCGTCCTGGAAGATTTTTAGGGGACGATCAGTTATACAACGTCATTGTTACGGCCCATGCTTTAGTTATAATTTTCTTTATGGTTATGCCTTTAATGGTCGGGGGTTTTGGGAATTGGCTTCTTCCATTAATAATAGGTTCTGTAGATATAATTTTTCCGCGACTTAACAATTTGAGATTTTGGTTTCTCCCCTCTTCATTATTTATACTGTTGAGGTCTACTTTTATTGAAAGCGGGTCCGGTACTGGATGGACTTTATATCCCCCTTTGTCTTCATATACAGGACATAGTGGCCCAGCTGTTGACATATCTTTATTTTCTTTACATTTGGCAGGTGCTTCTTCTATTGGTGGATCTATTAACTTTTTAACTAGTATAAAAAATATGCCGGTGGAGGTAATGCGAGGAGAGCGGATAATGTTGTTCTTGTGGTCTATGGTGGTAACAGCTGTTCTTTTATTGGTTTCTTTGCCTGTGCTGGCTGGCGGTATTACTATGTTGATTTTTGATCGTCATT</Hsp_qseq>
+      <Hsp_hseq>TTGATCGGGAATGGTGGGGATTGGTTTAAGAATGTTAATTCGAATTGAGTTAGGTCGTCCTGGAAGATTTTTAGGGGACGATCAGCTATATAACGTCATTGTTACGGCCCATGCTTTAGTTATAATTTTCTTTATGGTTATGCCTTTAATGGTCGGGGGTTTTGGGAATTGGCTTCTTCCATTAATAATAGGTTCTGTAGATATAATTTTTCCGCGACTTAACAATTTGAGATTTTGGTTTCTCCCCTCTTCATTATTTATACTGTTGAGGTCTACTTTTATTGAAAGCGGGTCCGGTACTGGATGGACTTTATATCCTCCTTTGTCTTCATATACAGGACATAGTGGCCCAGCTGTTGACATATCTTTATTTTCTTTACATTTGGCAGGTGCTTCTTCTATTGGTGGATCTATTAACTTTTTAACTAGTATAAAAAATATGCCGGTGGAGGTAATGCGAGGAGAGCGGATAATGTTGTTCTTGTGGTCTATGGTGGTAACAGCTGTTCTTTTATTGGTGTCTTTGCCTGTGCTGGCTGGCGGTATTACTATGCTGATTTTTGACCGTCATT</Hsp_hseq>
+      <Hsp_midline>||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| |||| ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| ||||||||||||||||||||||||||||||||| |||||||||| |||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>19</Hit_num>
+  <Hit_id>gi|1877092495|gb|MT736037.1|</Hit_id>
+  <Hit_def>Modiolus modiolus isolate NFL_HM141 cytochrome oxidase subunit 1 (COI) gene, partial cds; mitochondrial</Hit_def>
+  <Hit_accession>MT736037</Hit_accession>
+  <Hit_len>603</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>1005.76</Hsp_bit-score>
+      <Hsp_score>1114</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>9</Hsp_query-from>
+      <Hsp_query-to>580</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>572</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>566</Hsp_identity>
+      <Hsp_positive>566</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>572</Hsp_align-len>
+      <Hsp_qseq>TTGATCGGGAATGGTGGGGATTGGTTTAAGAATGTTAATTCGAATTGAGTTAGGTCGTCCTGGAAGATTTTTAGGGGACGATCAGTTATACAACGTCATTGTTACGGCCCATGCTTTAGTTATAATTTTCTTTATGGTTATGCCTTTAATGGTCGGGGGTTTTGGGAATTGGCTTCTTCCATTAATAATAGGTTCTGTAGATATAATTTTTCCGCGACTTAACAATTTGAGATTTTGGTTTCTCCCCTCTTCATTATTTATACTGTTGAGGTCTACTTTTATTGAAAGCGGGTCCGGTACTGGATGGACTTTATATCCCCCTTTGTCTTCATATACAGGACATAGTGGCCCAGCTGTTGACATATCTTTATTTTCTTTACATTTGGCAGGTGCTTCTTCTATTGGTGGATCTATTAACTTTTTAACTAGTATAAAAAATATGCCGGTGGAGGTAATGCGAGGAGAGCGGATAATGTTGTTCTTGTGGTCTATGGTGGTAACAGCTGTTCTTTTATTGGTTTCTTTGCCTGTGCTGGCTGGCGGTATTACTATGTTGATTTTTGATCGTCATT</Hsp_qseq>
+      <Hsp_hseq>TTGATCGGGAATGGTGGGGATTGGTTTAAGAATGTTAATTCGAATTGAGTTAGGTCGTCCTGGAAGATTTTTAGGGGACGATCAGCTATATAACGTCATTGTTACGGCCCATGCTTTAGTTATAATTTTCTTTATGGTTATGCCTTTAATGGTCGGGGGTTTTGGGAATTGGCTTCTTCCATTAATAATAGGTTCTGTAGATATAATTTTTCCGCGACTTAACAATTTGAGATTTTGGTTTCTCCCCTCTTCATTATTTATACTGTTGAGGTCTACTTTTATTGAAAGCGGGTCCGGTACTGGATGGACTTTATATCCTCCTTTGTCTTCATATACAGGACATAGTGGCCCAGCTGTTGACATATCTTTATTTTCTTTACATTTGGCAGGTGCTTCTTCTATTGGTGGATCTATTAACTTTTTAACTAGTATAAAAAATATGCCGGTGGAGGTAATGCGAGGAGAGCGGATAATGCTGTTCTTGTGGTCTATGGTGGTAACAGCTGTTCTTTTATTGGTGTCTTTGCCTGTGCTGGCTGGCGGTATTACTATGCTGATTTTTGATCGTCATT</Hsp_hseq>
+      <Hsp_midline>||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| |||| ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| ||||||||||||||||||||||||||||||||||||||||||| ||||||||||||||||||||||||||||||||| ||||||||||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>20</Hit_num>
+  <Hit_id>gi|1877092485|gb|MT736032.1|</Hit_id>
+  <Hit_def>Modiolus modiolus isolate NFL_HM136 cytochrome oxidase subunit 1 (COI) gene, partial cds; mitochondrial</Hit_def>
+  <Hit_accession>MT736032</Hit_accession>
+  <Hit_len>603</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>1005.76</Hsp_bit-score>
+      <Hsp_score>1114</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>9</Hsp_query-from>
+      <Hsp_query-to>580</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>572</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>566</Hsp_identity>
+      <Hsp_positive>566</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>572</Hsp_align-len>
+      <Hsp_qseq>TTGATCGGGAATGGTGGGGATTGGTTTAAGAATGTTAATTCGAATTGAGTTAGGTCGTCCTGGAAGATTTTTAGGGGACGATCAGTTATACAACGTCATTGTTACGGCCCATGCTTTAGTTATAATTTTCTTTATGGTTATGCCTTTAATGGTCGGGGGTTTTGGGAATTGGCTTCTTCCATTAATAATAGGTTCTGTAGATATAATTTTTCCGCGACTTAACAATTTGAGATTTTGGTTTCTCCCCTCTTCATTATTTATACTGTTGAGGTCTACTTTTATTGAAAGCGGGTCCGGTACTGGATGGACTTTATATCCCCCTTTGTCTTCATATACAGGACATAGTGGCCCAGCTGTTGACATATCTTTATTTTCTTTACATTTGGCAGGTGCTTCTTCTATTGGTGGATCTATTAACTTTTTAACTAGTATAAAAAATATGCCGGTGGAGGTAATGCGAGGAGAGCGGATAATGTTGTTCTTGTGGTCTATGGTGGTAACAGCTGTTCTTTTATTGGTTTCTTTGCCTGTGCTGGCTGGCGGTATTACTATGTTGATTTTTGATCGTCATT</Hsp_qseq>
+      <Hsp_hseq>TTGATCGGGAATGGTGGGGATTGGTTTAAGAATGTTAATTCGAATTGAGTTAGGTCGTCCTGGAAGATTTTTAGGGGACGATCAGCTATATAACGTCATTGTTACGGCCCATGCTTTAGTTATAATTTTCTTTATGGTTATGCCTTTAATGGTCGGGGGTTTTGGGAATTGGCTTCTTCCATTAATAATAGGTTCTGTAGATATAATTTTTCCGCGACTTAACAATTTGAGATTTTGGTTTCTCCCCTCTTCATTATTTATACTGTTGAGGTCTACTTTTATTGAAAGCGGGTCTGGTACTGGATGGACTTTATATCCTCCTTTGTCTTCATATACAGGACATAGTGGCCCAGCTGTTGACATATCTTTATTTTCTTTACATTTGGCAGGTGCTTCTTCTATTGGTGGATCTATTAACTTTTTAACTAGTATAAAAAATATGCCGGTGGAGGTAATGCGAGGAGAGCGGATAATGTTGTTCTTGTGGTCTATGGTGGTAACAGCTGTTCTTTTATTGGTGTCTTTGCCTGTGCTGGCTGGCGGTATTACTATGCTGATTTTTGATCGTCATT</Hsp_hseq>
+      <Hsp_midline>||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| |||| ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| ||||||||||||||||||||||| |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| ||||||||||||||||||||||||||||||||| ||||||||||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>21</Hit_num>
+  <Hit_id>gi|1877092461|gb|MT736020.1|</Hit_id>
+  <Hit_def>Modiolus modiolus isolate NFL_HM003 cytochrome oxidase subunit 1 (COI) gene, partial cds; mitochondrial</Hit_def>
+  <Hit_accession>MT736020</Hit_accession>
+  <Hit_len>603</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>1005.76</Hsp_bit-score>
+      <Hsp_score>1114</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>9</Hsp_query-from>
+      <Hsp_query-to>580</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>572</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>566</Hsp_identity>
+      <Hsp_positive>566</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>572</Hsp_align-len>
+      <Hsp_qseq>TTGATCGGGAATGGTGGGGATTGGTTTAAGAATGTTAATTCGAATTGAGTTAGGTCGTCCTGGAAGATTTTTAGGGGACGATCAGTTATACAACGTCATTGTTACGGCCCATGCTTTAGTTATAATTTTCTTTATGGTTATGCCTTTAATGGTCGGGGGTTTTGGGAATTGGCTTCTTCCATTAATAATAGGTTCTGTAGATATAATTTTTCCGCGACTTAACAATTTGAGATTTTGGTTTCTCCCCTCTTCATTATTTATACTGTTGAGGTCTACTTTTATTGAAAGCGGGTCCGGTACTGGATGGACTTTATATCCCCCTTTGTCTTCATATACAGGACATAGTGGCCCAGCTGTTGACATATCTTTATTTTCTTTACATTTGGCAGGTGCTTCTTCTATTGGTGGATCTATTAACTTTTTAACTAGTATAAAAAATATGCCGGTGGAGGTAATGCGAGGAGAGCGGATAATGTTGTTCTTGTGGTCTATGGTGGTAACAGCTGTTCTTTTATTGGTTTCTTTGCCTGTGCTGGCTGGCGGTATTACTATGTTGATTTTTGATCGTCATT</Hsp_qseq>
+      <Hsp_hseq>TTGATCGGGAATGGTGGGGATTGGTTTAAGAATGTTGATTCGAATTGAGTTAGGTCGTCCTGGAAGATTTTTAGGGGACGATCAGCTATATAACGTCATTGTTACGGCCCATGCTTTAGTTATAATTTTCTTTATGGTTATGCCTTTAATGGTCGGGGGTTTTGGGAATTGGCTTCTTCCATTAATAATAGGTTCTGTAGATATAATTTTTCCGCGACTTAACAATTTGAGATTTTGGTTTCTCCCCTCTTCATTATTTATACTGTTGAGGTCTACTTTTATTGAAAGCGGGTCCGGTACTGGATGGACTTTATATCCTCCTTTGTCTTCATATACAGGACATAGTGGCCCAGCTGTTGACATATCTTTATTTTCTTTACATTTGGCAGGTGCTTCTTCTATTGGTGGATCTATTAACTTTTTAACTAGTATAAAAAATATGCCGGTGGAGGTAATGCGAGGAGAGCGGATAATGTTGTTCTTGTGGTCTATGGTGGTAACAGCTGTTCTTTTATTGGTGTCTTTGCCTGTGCTGGCTGGCGGTATTACTATGCTGATTTTTGATCGTCATT</Hsp_hseq>
+      <Hsp_midline>|||||||||||||||||||||||||||||||||||| |||||||||||||||||||||||||||||||||||||||||||||||| |||| ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| ||||||||||||||||||||||||||||||||| ||||||||||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>22</Hit_num>
+  <Hit_id>gi|1877092459|gb|MT736019.1|</Hit_id>
+  <Hit_def>Modiolus modiolus isolate NFL_HM002 cytochrome oxidase subunit 1 (COI) gene, partial cds; mitochondrial</Hit_def>
+  <Hit_accession>MT736019</Hit_accession>
+  <Hit_len>603</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>1005.76</Hsp_bit-score>
+      <Hsp_score>1114</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>9</Hsp_query-from>
+      <Hsp_query-to>580</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>572</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>566</Hsp_identity>
+      <Hsp_positive>566</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>572</Hsp_align-len>
+      <Hsp_qseq>TTGATCGGGAATGGTGGGGATTGGTTTAAGAATGTTAATTCGAATTGAGTTAGGTCGTCCTGGAAGATTTTTAGGGGACGATCAGTTATACAACGTCATTGTTACGGCCCATGCTTTAGTTATAATTTTCTTTATGGTTATGCCTTTAATGGTCGGGGGTTTTGGGAATTGGCTTCTTCCATTAATAATAGGTTCTGTAGATATAATTTTTCCGCGACTTAACAATTTGAGATTTTGGTTTCTCCCCTCTTCATTATTTATACTGTTGAGGTCTACTTTTATTGAAAGCGGGTCCGGTACTGGATGGACTTTATATCCCCCTTTGTCTTCATATACAGGACATAGTGGCCCAGCTGTTGACATATCTTTATTTTCTTTACATTTGGCAGGTGCTTCTTCTATTGGTGGATCTATTAACTTTTTAACTAGTATAAAAAATATGCCGGTGGAGGTAATGCGAGGAGAGCGGATAATGTTGTTCTTGTGGTCTATGGTGGTAACAGCTGTTCTTTTATTGGTTTCTTTGCCTGTGCTGGCTGGCGGTATTACTATGTTGATTTTTGATCGTCATT</Hsp_qseq>
+      <Hsp_hseq>TTGATCGGGAATGGTGGGGATTGGTTTAAGAATGTTAATTCGAATTGAGTTAGGTCGTCCTGGGAGATTTTTAGGGGACGATCAGCTATATAACGTCATTGTTACGGCCCATGCTTTAGTTATAATTTTCTTTATGGTTATGCCTTTAATGGTCGGGGGTTTTGGGAATTGGCTTCTTCCATTAATAATAGGTTCTGTAGATATAATTTTTCCGCGACTTAACAATTTGAGATTTTGGTTTCTCCCCTCTTCATTATTTATACTGTTGAGGTCTACTTTTATTGAAAGCGGGTCCGGTACTGGATGGACTTTATATCCTCCTTTGTCTTCATATACAGGACATAGTGGCCCAGCTGTTGACATATCTTTATTTTCTTTACATTTGGCAGGTGCTTCTTCTATTGGTGGATCTATTAACTTTTTAACTAGTATAAAAAATATGCCGGTGGAGGTAATGCGAGGAGAGCGGATAATGTTGTTCTTGTGGTCTATGGTGGTAACAGCTGTTCTTTTATTGGTGTCTTTGCCTGTGCTGGCTGGCGGTATTACTATGCTGATTTTTGATCGTCATT</Hsp_hseq>
+      <Hsp_midline>||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| ||||||||||||||||||||| |||| ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| ||||||||||||||||||||||||||||||||| ||||||||||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>23</Hit_num>
+  <Hit_id>gi|1877092449|gb|MT736014.1|</Hit_id>
+  <Hit_def>Modiolus modiolus isolate WSK_HM075 cytochrome oxidase subunit 1 (COI) gene, partial cds; mitochondrial</Hit_def>
+  <Hit_accession>MT736014</Hit_accession>
+  <Hit_len>603</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>1005.76</Hsp_bit-score>
+      <Hsp_score>1114</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>9</Hsp_query-from>
+      <Hsp_query-to>580</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>572</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>566</Hsp_identity>
+      <Hsp_positive>566</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>572</Hsp_align-len>
+      <Hsp_qseq>TTGATCGGGAATGGTGGGGATTGGTTTAAGAATGTTAATTCGAATTGAGTTAGGTCGTCCTGGAAGATTTTTAGGGGACGATCAGTTATACAACGTCATTGTTACGGCCCATGCTTTAGTTATAATTTTCTTTATGGTTATGCCTTTAATGGTCGGGGGTTTTGGGAATTGGCTTCTTCCATTAATAATAGGTTCTGTAGATATAATTTTTCCGCGACTTAACAATTTGAGATTTTGGTTTCTCCCCTCTTCATTATTTATACTGTTGAGGTCTACTTTTATTGAAAGCGGGTCCGGTACTGGATGGACTTTATATCCCCCTTTGTCTTCATATACAGGACATAGTGGCCCAGCTGTTGACATATCTTTATTTTCTTTACATTTGGCAGGTGCTTCTTCTATTGGTGGATCTATTAACTTTTTAACTAGTATAAAAAATATGCCGGTGGAGGTAATGCGAGGAGAGCGGATAATGTTGTTCTTGTGGTCTATGGTGGTAACAGCTGTTCTTTTATTGGTTTCTTTGCCTGTGCTGGCTGGCGGTATTACTATGTTGATTTTTGATCGTCATT</Hsp_qseq>
+      <Hsp_hseq>TTGATCGGGAATGGTGGGGATTGGTTTAAGAATGTTAATTCGAATTGAGTTAGGTCGTCCTGGAAGATTTTTAGGGGACGATCAGCTATATAACGTCATTGTTACGGCCCATGCTTTAGTTATAATTTTCTTTATGGTTATGCCTTTAATGGTCGGGGGTTTTGGGAATTGGCTTCTTCCATTAATAATAGGTTCTGTAGATATAATTTTTCCGCGACTTAACAATTTGAGATTTTGGTTTCTCCCCTCTTCATTATTTATACTGTTGAGGTCTACTTTTATTGAAAGCGGGTCCGGTACTGGATGGACTTTATATCCTCCTTTGTCTTCATATACAGGACATAGTGGCCCAGCTGTTGACATATCTTTATTTTCTTTACATTTGGCAGGTGCTTCTTCTATTGGTGGATCTATTAACTTTTTAACTAGTATAAAAAATATGCCGGTGGAGGTAATGCGAGGAGAGCGGATAATGTTGTTCTTGTGGTCTATGGTGGTAACAGCTGTTCTTTTATTGGTGTCTTTGCCTGTGTTGGCTGGCGGTATTACTATGCTGATTTTTGATCGTCATT</Hsp_hseq>
+      <Hsp_midline>||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| |||| ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| |||||||||||| |||||||||||||||||||| ||||||||||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>24</Hit_num>
+  <Hit_id>gi|1877092445|gb|MT736012.1|</Hit_id>
+  <Hit_def>Modiolus modiolus isolate WSK_HM073 cytochrome oxidase subunit 1 (COI) gene, partial cds; mitochondrial</Hit_def>
+  <Hit_accession>MT736012</Hit_accession>
+  <Hit_len>603</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>1005.76</Hsp_bit-score>
+      <Hsp_score>1114</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>9</Hsp_query-from>
+      <Hsp_query-to>580</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>572</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>566</Hsp_identity>
+      <Hsp_positive>566</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>572</Hsp_align-len>
+      <Hsp_qseq>TTGATCGGGAATGGTGGGGATTGGTTTAAGAATGTTAATTCGAATTGAGTTAGGTCGTCCTGGAAGATTTTTAGGGGACGATCAGTTATACAACGTCATTGTTACGGCCCATGCTTTAGTTATAATTTTCTTTATGGTTATGCCTTTAATGGTCGGGGGTTTTGGGAATTGGCTTCTTCCATTAATAATAGGTTCTGTAGATATAATTTTTCCGCGACTTAACAATTTGAGATTTTGGTTTCTCCCCTCTTCATTATTTATACTGTTGAGGTCTACTTTTATTGAAAGCGGGTCCGGTACTGGATGGACTTTATATCCCCCTTTGTCTTCATATACAGGACATAGTGGCCCAGCTGTTGACATATCTTTATTTTCTTTACATTTGGCAGGTGCTTCTTCTATTGGTGGATCTATTAACTTTTTAACTAGTATAAAAAATATGCCGGTGGAGGTAATGCGAGGAGAGCGGATAATGTTGTTCTTGTGGTCTATGGTGGTAACAGCTGTTCTTTTATTGGTTTCTTTGCCTGTGCTGGCTGGCGGTATTACTATGTTGATTTTTGATCGTCATT</Hsp_qseq>
+      <Hsp_hseq>TTGATCGGGAATGGTGGGGATTGGTTTAAGAATGTTAATTCGAATTGAGTTAGGTCGTCCTGGAAGATTTTTAGGGGACGATCAGCTATATAACGTCATTGTTACGGCCCATGCTTTAGTTATAATTTTCTTTATGGTTATGCCTTTAATGGTCGGGGGTTTTGGGAATTGGCTTCTTCCATTAATAATAGGTTCTGTAGATATAATTTTTCCGCGACTTAACAATTTGAGATTTTGATTTCTCCCCTCTTCATTATTTATACTGTTGAGGTCTACTTTTATTGAAAGCGGGTCCGGTACTGGATGGACTTTATATCCTCCTTTGTCTTCATATACAGGACATAGTGGCCCAGCTGTTGACATATCTTTATTTTCTTTACATTTGGCAGGTGCTTCTTCTATTGGTGGATCTATTAACTTTTTAACTAGTATAAAAAATATGCCGGTGGAGGTAATGCGAGGAGAGCGGATAATGTTGTTCTTGTGGTCTATGGTGGTAACAGCTGTTCTTTTATTGGTGTCTTTGCCTGTGCTGGCTGGCGGTATTACTATGCTGATTTTTGATCGTCATT</Hsp_hseq>
+      <Hsp_midline>||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| |||| |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| ||||||||||||||||||||||||||||||||| ||||||||||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>25</Hit_num>
+  <Hit_id>gi|1877092433|gb|MT736006.1|</Hit_id>
+  <Hit_def>Modiolus modiolus isolate WSK_HM067 cytochrome oxidase subunit 1 (COI) gene, partial cds; mitochondrial</Hit_def>
+  <Hit_accession>MT736006</Hit_accession>
+  <Hit_len>603</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>1005.76</Hsp_bit-score>
+      <Hsp_score>1114</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>9</Hsp_query-from>
+      <Hsp_query-to>580</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>572</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>566</Hsp_identity>
+      <Hsp_positive>566</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>572</Hsp_align-len>
+      <Hsp_qseq>TTGATCGGGAATGGTGGGGATTGGTTTAAGAATGTTAATTCGAATTGAGTTAGGTCGTCCTGGAAGATTTTTAGGGGACGATCAGTTATACAACGTCATTGTTACGGCCCATGCTTTAGTTATAATTTTCTTTATGGTTATGCCTTTAATGGTCGGGGGTTTTGGGAATTGGCTTCTTCCATTAATAATAGGTTCTGTAGATATAATTTTTCCGCGACTTAACAATTTGAGATTTTGGTTTCTCCCCTCTTCATTATTTATACTGTTGAGGTCTACTTTTATTGAAAGCGGGTCCGGTACTGGATGGACTTTATATCCCCCTTTGTCTTCATATACAGGACATAGTGGCCCAGCTGTTGACATATCTTTATTTTCTTTACATTTGGCAGGTGCTTCTTCTATTGGTGGATCTATTAACTTTTTAACTAGTATAAAAAATATGCCGGTGGAGGTAATGCGAGGAGAGCGGATAATGTTGTTCTTGTGGTCTATGGTGGTAACAGCTGTTCTTTTATTGGTTTCTTTGCCTGTGCTGGCTGGCGGTATTACTATGTTGATTTTTGATCGTCATT</Hsp_qseq>
+      <Hsp_hseq>TTGATCGGGAATGGTGGGGATTGGTTTAAGAATGTTAATTCGAATTGAGTTAGGTCGTCCTGGAAGATTTTTAGGGGACGATCAGCTATATAACGTCATTGTTACGGCCCATGCTTTAGTTATAATTTTCTTTATGGTTATGCCTTTAATGGTCGGGGGTTTTGGGAATTGGCTTCTTCCATTAATAATAGGTTCTGTAGATATAATTTTTCCGCGACTTAACAATTTGAGATTTTGGTTTCTCCCCTCTTCATTATTTATACTGTTGAGGTCTACTTTTATTGAAAGCGGGTCCGGTACTGGATGGACCTTATATCCTCCTTTGTCTTCATATACAGGACATAGTGGCCCAGCTGTTGACATATCTTTATTTTCTTTACATTTGGCAGGTGCTTCTTCTATTGGTGGATCTATTAACTTTTTAACTAGTATAAAAAATATGCCGGTGGAGGTAATGCGAGGAGAGCGGATAATGTTGTTCTTGTGGTCTATGGTGGTAACAGCTGTTCTTTTATTGGTGTCTTTGCCTGTGCTGGCTGGCGGTATTACTATGCTGATTTTTGATCGTCATT</Hsp_hseq>
+      <Hsp_midline>||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| |||| |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| |||||||| |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| ||||||||||||||||||||||||||||||||| ||||||||||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>26</Hit_num>
+  <Hit_id>gi|1877092427|gb|MT736003.1|</Hit_id>
+  <Hit_def>Modiolus modiolus isolate WSK_HM064 cytochrome oxidase subunit 1 (COI) gene, partial cds; mitochondrial</Hit_def>
+  <Hit_accession>MT736003</Hit_accession>
+  <Hit_len>603</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>1005.76</Hsp_bit-score>
+      <Hsp_score>1114</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>9</Hsp_query-from>
+      <Hsp_query-to>580</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>572</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>566</Hsp_identity>
+      <Hsp_positive>566</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>572</Hsp_align-len>
+      <Hsp_qseq>TTGATCGGGAATGGTGGGGATTGGTTTAAGAATGTTAATTCGAATTGAGTTAGGTCGTCCTGGAAGATTTTTAGGGGACGATCAGTTATACAACGTCATTGTTACGGCCCATGCTTTAGTTATAATTTTCTTTATGGTTATGCCTTTAATGGTCGGGGGTTTTGGGAATTGGCTTCTTCCATTAATAATAGGTTCTGTAGATATAATTTTTCCGCGACTTAACAATTTGAGATTTTGGTTTCTCCCCTCTTCATTATTTATACTGTTGAGGTCTACTTTTATTGAAAGCGGGTCCGGTACTGGATGGACTTTATATCCCCCTTTGTCTTCATATACAGGACATAGTGGCCCAGCTGTTGACATATCTTTATTTTCTTTACATTTGGCAGGTGCTTCTTCTATTGGTGGATCTATTAACTTTTTAACTAGTATAAAAAATATGCCGGTGGAGGTAATGCGAGGAGAGCGGATAATGTTGTTCTTGTGGTCTATGGTGGTAACAGCTGTTCTTTTATTGGTTTCTTTGCCTGTGCTGGCTGGCGGTATTACTATGTTGATTTTTGATCGTCATT</Hsp_qseq>
+      <Hsp_hseq>TTGATCGGGAATGGTGGGGATTGGTTTAAGAATGTTAATTCGAATTGAGTTAGGTCGTCCTGGAAGATTTTTAGGGGACGATCAGCTATATAACGTCATTGTTACGGCCCATGCTTTAGTTATAATTTTCTTTATGGTTATGCCTTTAATGGTCGGGGGTTTTGGGAATTGGCTTCTTCCATTAATAATAGGTTCTGTAGATATAATTTTTCCGCGACTTAACAATTTGAGATTTTGGTTTCTCCCCTCTTCATTATTTATACTGTTGAGGTCTACTTTTATTGAAAGCGGGTCCGGTACTGGATGGACTTTATATCCTCCTTTGTCTTCATATACAGGACATAGTGGCCCAGCTGTTGACATATCTTTATTTTCTTTACATTTGGCAGGTGCTTCTTCTATTGGTGGATCCATTAACTTTTTAACTAGTATAAAAAATATGCCGGTGGAGGTAATGCGAGGAGAGCGGATAATGTTGTTCTTGTGGTCTATGGTGGTAACAGCTGTTCTTTTATTGGTGTCTTTGCCTGTGCTGGCTGGCGGTATTACTATGCTGATTTTTGATCGTCATT</Hsp_hseq>
+      <Hsp_midline>||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| |||| ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| ||||||||||||||||||||||||||||||||| ||||||||||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>27</Hit_num>
+  <Hit_id>gi|1877092421|gb|MT736000.1|</Hit_id>
+  <Hit_def>Modiolus modiolus isolate WSK_HM060 cytochrome oxidase subunit 1 (COI) gene, partial cds; mitochondrial</Hit_def>
+  <Hit_accession>MT736000</Hit_accession>
+  <Hit_len>603</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>1005.76</Hsp_bit-score>
+      <Hsp_score>1114</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>9</Hsp_query-from>
+      <Hsp_query-to>580</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>572</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>566</Hsp_identity>
+      <Hsp_positive>566</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>572</Hsp_align-len>
+      <Hsp_qseq>TTGATCGGGAATGGTGGGGATTGGTTTAAGAATGTTAATTCGAATTGAGTTAGGTCGTCCTGGAAGATTTTTAGGGGACGATCAGTTATACAACGTCATTGTTACGGCCCATGCTTTAGTTATAATTTTCTTTATGGTTATGCCTTTAATGGTCGGGGGTTTTGGGAATTGGCTTCTTCCATTAATAATAGGTTCTGTAGATATAATTTTTCCGCGACTTAACAATTTGAGATTTTGGTTTCTCCCCTCTTCATTATTTATACTGTTGAGGTCTACTTTTATTGAAAGCGGGTCCGGTACTGGATGGACTTTATATCCCCCTTTGTCTTCATATACAGGACATAGTGGCCCAGCTGTTGACATATCTTTATTTTCTTTACATTTGGCAGGTGCTTCTTCTATTGGTGGATCTATTAACTTTTTAACTAGTATAAAAAATATGCCGGTGGAGGTAATGCGAGGAGAGCGGATAATGTTGTTCTTGTGGTCTATGGTGGTAACAGCTGTTCTTTTATTGGTTTCTTTGCCTGTGCTGGCTGGCGGTATTACTATGTTGATTTTTGATCGTCATT</Hsp_qseq>
+      <Hsp_hseq>TTGATCGGGAATGGTGGGGATTGGTTTAAGAATGTTAATTCGAATTGAGTTAGGTCGTCCTGGAAGATTTTTAGGGGACGATCAGCTATATAACGTCATTGTTACGGCCCATGCTTTAGTTATAATTTTCTTTATGGTTATGCCTTTAATGGTCGGGGGTTTTGGGAATTGGCTTCTTCCATTAATAATAGGTTCTGTAGATATAATTTTTCCGCGACTTAACAATTTGAGATTTTGGTTTCTCCCCTCTTCATTATTTATACTGTTGAGGTCTACTTTTATTGAAAGCGGGTCCGGTACTGGATGGACTTTATATCCTCCTTTGTCTTCATATACAGGACATAGTGGTCCAGCTGTTGACATATCTTTATTTTCTTTACATTTGGCAGGTGCTTCTTCTATTGGTGGATCTATTAACTTTTTAACTAGTATAAAAAATATGCCGGTGGAGGTAATGCGAGGAGAGCGGATAATGTTGTTCTTGTGGTCTATGGTGGTAACAGCTGTTCTTTTATTGGTGTCTTTGCCTGTGCTGGCTGGCGGTATTACTATGCTGATTTTTGATCGTCATT</Hsp_hseq>
+      <Hsp_midline>||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| |||| ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| ||||||||||||||||||||||||||||| |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| ||||||||||||||||||||||||||||||||| ||||||||||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>28</Hit_num>
+  <Hit_id>gi|1877092403|gb|MT735991.1|</Hit_id>
+  <Hit_def>Modiolus modiolus isolate TUV_HM171 cytochrome oxidase subunit 1 (COI) gene, partial cds; mitochondrial</Hit_def>
+  <Hit_accession>MT735991</Hit_accession>
+  <Hit_len>603</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>1005.76</Hsp_bit-score>
+      <Hsp_score>1114</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>9</Hsp_query-from>
+      <Hsp_query-to>580</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>572</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>566</Hsp_identity>
+      <Hsp_positive>566</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>572</Hsp_align-len>
+      <Hsp_qseq>TTGATCGGGAATGGTGGGGATTGGTTTAAGAATGTTAATTCGAATTGAGTTAGGTCGTCCTGGAAGATTTTTAGGGGACGATCAGTTATACAACGTCATTGTTACGGCCCATGCTTTAGTTATAATTTTCTTTATGGTTATGCCTTTAATGGTCGGGGGTTTTGGGAATTGGCTTCTTCCATTAATAATAGGTTCTGTAGATATAATTTTTCCGCGACTTAACAATTTGAGATTTTGGTTTCTCCCCTCTTCATTATTTATACTGTTGAGGTCTACTTTTATTGAAAGCGGGTCCGGTACTGGATGGACTTTATATCCCCCTTTGTCTTCATATACAGGACATAGTGGCCCAGCTGTTGACATATCTTTATTTTCTTTACATTTGGCAGGTGCTTCTTCTATTGGTGGATCTATTAACTTTTTAACTAGTATAAAAAATATGCCGGTGGAGGTAATGCGAGGAGAGCGGATAATGTTGTTCTTGTGGTCTATGGTGGTAACAGCTGTTCTTTTATTGGTTTCTTTGCCTGTGCTGGCTGGCGGTATTACTATGTTGATTTTTGATCGTCATT</Hsp_qseq>
+      <Hsp_hseq>TTGATCGGGAATGGTGGGGATTGGTTTAAGAATGTTAATTCGAATTGAGTTAGGTCGTCCTGGAAGATTTTTAGGGGACGATCAGCTATATAACGTCATTGTTACGGCCCATGCTTTAGTTATAATTTTCTTTATGGTTATGCCTTTAATGGTCGGGGGTTTTGGGAATTGGCTTCTTCCATTAATAATAGGTTCTGTAGATATAATTTTTCCGCGACTTAACAATTTGAGATTTTGGTTTCTCCCCTCTTCATTATTTATACTGTTGAGGTCTACTTTTATTGAAAGCGGGTCCGGTACTGGATGAACTTTATATCCTCCTTTGTCTTCATATACAGGACATAGTGGCCCAGCTGTTGACATATCTTTATTTTCTTTACATTTGGCAGGTGCTTCTTCTATTGGTGGATCTATTAACTTTTTAACTAGTATAAAAAATATGCCGGTGGAGGTAATGCGAGGAGAGCGGATAATGTTGTTCTTGTGGTCTATGGTGGTAACAGCTGTTCTTTTATTGGTGTCTTTGCCTGTGCTGGCTGGCGGTATTACTATGCTGATTTTTGATCGTCATT</Hsp_hseq>
+      <Hsp_midline>||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| |||| ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| ||||||||||| |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| ||||||||||||||||||||||||||||||||| ||||||||||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>29</Hit_num>
+  <Hit_id>gi|1877092347|gb|MT735963.1|</Hit_id>
+  <Hit_def>Modiolus modiolus isolate SCO_HM147 cytochrome oxidase subunit 1 (COI) gene, partial cds; mitochondrial &gt;gi|1877092411|gb|MT735995.1| Modiolus modiolus isolate VAR_HM083 cytochrome oxidase subunit 1 (COI) gene, partial cds; mitochondrial &gt;gi|1877092471|gb|MT736025.1| Modiolus modiolus isolate NFL_HM129 cytochrome oxidase subunit 1 (COI) gene, partial cds; mitochondrial</Hit_def>
+  <Hit_accession>MT735963</Hit_accession>
+  <Hit_len>603</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>1005.76</Hsp_bit-score>
+      <Hsp_score>1114</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>9</Hsp_query-from>
+      <Hsp_query-to>580</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>572</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>566</Hsp_identity>
+      <Hsp_positive>566</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>572</Hsp_align-len>
+      <Hsp_qseq>TTGATCGGGAATGGTGGGGATTGGTTTAAGAATGTTAATTCGAATTGAGTTAGGTCGTCCTGGAAGATTTTTAGGGGACGATCAGTTATACAACGTCATTGTTACGGCCCATGCTTTAGTTATAATTTTCTTTATGGTTATGCCTTTAATGGTCGGGGGTTTTGGGAATTGGCTTCTTCCATTAATAATAGGTTCTGTAGATATAATTTTTCCGCGACTTAACAATTTGAGATTTTGGTTTCTCCCCTCTTCATTATTTATACTGTTGAGGTCTACTTTTATTGAAAGCGGGTCCGGTACTGGATGGACTTTATATCCCCCTTTGTCTTCATATACAGGACATAGTGGCCCAGCTGTTGACATATCTTTATTTTCTTTACATTTGGCAGGTGCTTCTTCTATTGGTGGATCTATTAACTTTTTAACTAGTATAAAAAATATGCCGGTGGAGGTAATGCGAGGAGAGCGGATAATGTTGTTCTTGTGGTCTATGGTGGTAACAGCTGTTCTTTTATTGGTTTCTTTGCCTGTGCTGGCTGGCGGTATTACTATGTTGATTTTTGATCGTCATT</Hsp_qseq>
+      <Hsp_hseq>TTGATCGGGAATGGTGGGGATTGGTTTAAGAATGTTAATTCGAATTGAGTTAGGTCGTCCTGGAAGATTTTTAGGGGACGATCAGCTATATAACGTCATTGTTACGGCCCATGCTTTAGTTATAATTTTCTTTATGGTTATGCCTTTAATGGTCGGGGGTTTTGGGAATTGGCTTCTTCCATTAATAATAGGTTCTGTAGATATAATTTTTCCGCGACTTAACAATTTGAGATTTTGGTTTCTCCCCTCTTCATTATTTATACTGTTGAGGTCTACTTTTATTGAAAGCGGGTCCGGTACTGGATGGACTTTATATCCTCCTTTATCTTCATATACAGGACATAGTGGCCCAGCTGTTGACATATCTTTATTTTCTTTACATTTGGCAGGTGCTTCTTCTATTGGTGGATCTATTAACTTTTTAACTAGTATAAAAAATATGCCGGTGGAGGTAATGCGAGGAGAGCGGATAATGTTGTTCTTGTGGTCTATGGTGGTAACAGCTGTTCTTTTATTGGTGTCTTTGCCTGTGCTGGCTGGCGGTATTACTATGCTGATTTTTGATCGTCATT</Hsp_hseq>
+      <Hsp_midline>||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| |||| ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| ||||| |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| ||||||||||||||||||||||||||||||||| ||||||||||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>30</Hit_num>
+  <Hit_id>gi|1877092341|gb|MT735960.1|</Hit_id>
+  <Hit_def>Modiolus modiolus isolate SCO_HM024 cytochrome oxidase subunit 1 (COI) gene, partial cds; mitochondrial</Hit_def>
+  <Hit_accession>MT735960</Hit_accession>
+  <Hit_len>603</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>1005.76</Hsp_bit-score>
+      <Hsp_score>1114</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>9</Hsp_query-from>
+      <Hsp_query-to>580</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>572</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>566</Hsp_identity>
+      <Hsp_positive>566</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>572</Hsp_align-len>
+      <Hsp_qseq>TTGATCGGGAATGGTGGGGATTGGTTTAAGAATGTTAATTCGAATTGAGTTAGGTCGTCCTGGAAGATTTTTAGGGGACGATCAGTTATACAACGTCATTGTTACGGCCCATGCTTTAGTTATAATTTTCTTTATGGTTATGCCTTTAATGGTCGGGGGTTTTGGGAATTGGCTTCTTCCATTAATAATAGGTTCTGTAGATATAATTTTTCCGCGACTTAACAATTTGAGATTTTGGTTTCTCCCCTCTTCATTATTTATACTGTTGAGGTCTACTTTTATTGAAAGCGGGTCCGGTACTGGATGGACTTTATATCCCCCTTTGTCTTCATATACAGGACATAGTGGCCCAGCTGTTGACATATCTTTATTTTCTTTACATTTGGCAGGTGCTTCTTCTATTGGTGGATCTATTAACTTTTTAACTAGTATAAAAAATATGCCGGTGGAGGTAATGCGAGGAGAGCGGATAATGTTGTTCTTGTGGTCTATGGTGGTAACAGCTGTTCTTTTATTGGTTTCTTTGCCTGTGCTGGCTGGCGGTATTACTATGTTGATTTTTGATCGTCATT</Hsp_qseq>
+      <Hsp_hseq>TTGATCGGGAATGGTGGGGATTGGTTTAAGAATGTTAATTCGAATTGAGTTAGGTCGTCCTGGAAGATTTTTAGGGGACGATCAGCTATATAACGTTATTGTTACGGCCCATGCTTTAGTTATAATTTTCTTTATGGTTATGCCTTTAATGGTCGGGGGTTTTGGGAATTGGCTTCTTCCATTAATAATAGGTTCTGTAGATATAATTTTTCCGCGACTTAACAATTTGAGATTTTGGTTTCTCCCCTCTTCATTATTTATACTGTTGAGGTCTACTTTTATTGAAAGCGGGTCCGGTACTGGATGGACTTTATATCCTCCTTTGTCTTCATATACAGGACATAGTGGCCCAGCTGTTGACATATCTTTATTTTCTTTACATTTGGCAGGTGCTTCTTCTATTGGTGGATCTATTAACTTTTTAACTAGTATAAAAAATATGCCGGTGGAGGTAATGCGAGGAGAGCGGATAATGTTGTTCTTGTGGTCTATGGTGGTAACAGCTGTTCTTTTATTGGTGTCTTTGCCTGTGCTGGCTGGCGGTATTACTATGCTGATTTTTGATCGTCATT</Hsp_hseq>
+      <Hsp_midline>||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| |||| ||||| ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| ||||||||||||||||||||||||||||||||| ||||||||||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>31</Hit_num>
+  <Hit_id>gi|1877092331|gb|MT735955.1|</Hit_id>
+  <Hit_def>Modiolus modiolus isolate SCO_HM015 cytochrome oxidase subunit 1 (COI) gene, partial cds; mitochondrial &gt;gi|1877092463|gb|MT736021.1| Modiolus modiolus isolate NFL_HM004 cytochrome oxidase subunit 1 (COI) gene, partial cds; mitochondrial &gt;gi|1877092507|gb|MT736043.1| Modiolus modiolus isolate USM_HM119 cytochrome oxidase subunit 1 (COI) gene, partial cds; mitochondrial &gt;gi|1877092513|gb|MT736046.1| Modiolus modiolus isolate USM_HM122 cytochrome oxidase subunit 1 (COI) gene, partial cds; mitochondrial</Hit_def>
+  <Hit_accession>MT735955</Hit_accession>
+  <Hit_len>603</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>1005.76</Hsp_bit-score>
+      <Hsp_score>1114</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>9</Hsp_query-from>
+      <Hsp_query-to>580</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>572</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>566</Hsp_identity>
+      <Hsp_positive>566</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>572</Hsp_align-len>
+      <Hsp_qseq>TTGATCGGGAATGGTGGGGATTGGTTTAAGAATGTTAATTCGAATTGAGTTAGGTCGTCCTGGAAGATTTTTAGGGGACGATCAGTTATACAACGTCATTGTTACGGCCCATGCTTTAGTTATAATTTTCTTTATGGTTATGCCTTTAATGGTCGGGGGTTTTGGGAATTGGCTTCTTCCATTAATAATAGGTTCTGTAGATATAATTTTTCCGCGACTTAACAATTTGAGATTTTGGTTTCTCCCCTCTTCATTATTTATACTGTTGAGGTCTACTTTTATTGAAAGCGGGTCCGGTACTGGATGGACTTTATATCCCCCTTTGTCTTCATATACAGGACATAGTGGCCCAGCTGTTGACATATCTTTATTTTCTTTACATTTGGCAGGTGCTTCTTCTATTGGTGGATCTATTAACTTTTTAACTAGTATAAAAAATATGCCGGTGGAGGTAATGCGAGGAGAGCGGATAATGTTGTTCTTGTGGTCTATGGTGGTAACAGCTGTTCTTTTATTGGTTTCTTTGCCTGTGCTGGCTGGCGGTATTACTATGTTGATTTTTGATCGTCATT</Hsp_qseq>
+      <Hsp_hseq>TTGATCGGGAATGGTGGGGATTGGTTTAAGAATGTTAATTCGAATTGAGTTAGGTCGTCCTGGAAGATTTTTAGGGGACGATCAGCTATATAACGTGATTGTTACGGCCCATGCTTTAGTTATAATTTTCTTTATGGTTATGCCTTTAATGGTCGGGGGTTTTGGGAATTGGCTTCTTCCATTAATAATAGGTTCTGTAGATATAATTTTTCCGCGACTTAACAATTTGAGATTTTGGTTTCTCCCCTCTTCATTATTTATACTGTTGAGGTCTACTTTTATTGAAAGCGGGTCCGGTACTGGATGGACTTTATATCCTCCTTTGTCTTCATATACAGGACATAGTGGCCCAGCTGTTGACATATCTTTATTTTCTTTACATTTGGCAGGTGCTTCTTCTATTGGTGGATCTATTAACTTTTTAACTAGTATAAAAAATATGCCGGTGGAGGTAATGCGAGGAGAGCGGATAATGTTGTTCTTGTGGTCTATGGTGGTAACAGCTGTTCTTTTATTGGTGTCTTTGCCTGTGCTGGCTGGCGGTATTACTATGCTGATTTTTGATCGTCATT</Hsp_hseq>
+      <Hsp_midline>||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| |||| ||||| ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| ||||||||||||||||||||||||||||||||| ||||||||||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>32</Hit_num>
+  <Hit_id>gi|1877092327|gb|MT735953.1|</Hit_id>
+  <Hit_def>Modiolus modiolus isolate SCO_HM013 cytochrome oxidase subunit 1 (COI) gene, partial cds; mitochondrial &gt;gi|1877092533|gb|MT736056.1| Modiolus modiolus isolate USM_HM201 cytochrome oxidase subunit 1 (COI) gene, partial cds; mitochondrial</Hit_def>
+  <Hit_accession>MT735953</Hit_accession>
+  <Hit_len>603</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>1005.76</Hsp_bit-score>
+      <Hsp_score>1114</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>9</Hsp_query-from>
+      <Hsp_query-to>580</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>572</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>566</Hsp_identity>
+      <Hsp_positive>566</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>572</Hsp_align-len>
+      <Hsp_qseq>TTGATCGGGAATGGTGGGGATTGGTTTAAGAATGTTAATTCGAATTGAGTTAGGTCGTCCTGGAAGATTTTTAGGGGACGATCAGTTATACAACGTCATTGTTACGGCCCATGCTTTAGTTATAATTTTCTTTATGGTTATGCCTTTAATGGTCGGGGGTTTTGGGAATTGGCTTCTTCCATTAATAATAGGTTCTGTAGATATAATTTTTCCGCGACTTAACAATTTGAGATTTTGGTTTCTCCCCTCTTCATTATTTATACTGTTGAGGTCTACTTTTATTGAAAGCGGGTCCGGTACTGGATGGACTTTATATCCCCCTTTGTCTTCATATACAGGACATAGTGGCCCAGCTGTTGACATATCTTTATTTTCTTTACATTTGGCAGGTGCTTCTTCTATTGGTGGATCTATTAACTTTTTAACTAGTATAAAAAATATGCCGGTGGAGGTAATGCGAGGAGAGCGGATAATGTTGTTCTTGTGGTCTATGGTGGTAACAGCTGTTCTTTTATTGGTTTCTTTGCCTGTGCTGGCTGGCGGTATTACTATGTTGATTTTTGATCGTCATT</Hsp_qseq>
+      <Hsp_hseq>TTGATCGGGAATGGTGGGGATTGGTTTAAGAATGTTAATTCGAATTGAGTTAGGTCGTCCTGGAAGATTTTTAGGGGACGATCAGCTATATAACGTCATTGTTACGGCCCATGCTTTAGTTATAATTTTCTTTATGGTTATGCCTTTAATGGTCGGGGGTTTTGGGAATTGACTTCTTCCATTAATAATAGGTTCTGTAGATATAATTTTTCCGCGACTTAACAATTTGAGATTTTGGTTTCTCCCCTCTTCATTATTTATACTGTTGAGGTCTACTTTTATTGAAAGCGGGTCCGGTACTGGATGGACTTTATATCCTCCTTTGTCTTCATATACAGGACATAGTGGCCCAGCTGTTGACATATCTTTATTTTCTTTACATTTGGCAGGTGCTTCTTCTATTGGTGGATCTATTAACTTTTTAACTAGTATAAAAAATATGCCGGTGGAGGTAATGCGAGGAGAGCGGATAATGTTGTTCTTGTGGTCTATGGTGGTAACAGCTGTTCTTTTATTGGTGTCTTTGCCTGTGCTGGCTGGCGGTATTACTATGCTGATTTTTGATCGTCATT</Hsp_hseq>
+      <Hsp_midline>||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| |||| |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| ||||||||||||||||||||||||||||||||| ||||||||||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>33</Hit_num>
+  <Hit_id>gi|1877092321|gb|MT735950.1|</Hit_id>
+  <Hit_def>Modiolus modiolus isolate SCO_HM010 cytochrome oxidase subunit 1 (COI) gene, partial cds; mitochondrial</Hit_def>
+  <Hit_accession>MT735950</Hit_accession>
+  <Hit_len>603</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>1005.76</Hsp_bit-score>
+      <Hsp_score>1114</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>9</Hsp_query-from>
+      <Hsp_query-to>580</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>572</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>566</Hsp_identity>
+      <Hsp_positive>566</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>572</Hsp_align-len>
+      <Hsp_qseq>TTGATCGGGAATGGTGGGGATTGGTTTAAGAATGTTAATTCGAATTGAGTTAGGTCGTCCTGGAAGATTTTTAGGGGACGATCAGTTATACAACGTCATTGTTACGGCCCATGCTTTAGTTATAATTTTCTTTATGGTTATGCCTTTAATGGTCGGGGGTTTTGGGAATTGGCTTCTTCCATTAATAATAGGTTCTGTAGATATAATTTTTCCGCGACTTAACAATTTGAGATTTTGGTTTCTCCCCTCTTCATTATTTATACTGTTGAGGTCTACTTTTATTGAAAGCGGGTCCGGTACTGGATGGACTTTATATCCCCCTTTGTCTTCATATACAGGACATAGTGGCCCAGCTGTTGACATATCTTTATTTTCTTTACATTTGGCAGGTGCTTCTTCTATTGGTGGATCTATTAACTTTTTAACTAGTATAAAAAATATGCCGGTGGAGGTAATGCGAGGAGAGCGGATAATGTTGTTCTTGTGGTCTATGGTGGTAACAGCTGTTCTTTTATTGGTTTCTTTGCCTGTGCTGGCTGGCGGTATTACTATGTTGATTTTTGATCGTCATT</Hsp_qseq>
+      <Hsp_hseq>TTGATCGGGAATGGTGGGGATTGGTTTAAGAATGTTAATTCGAATTGAGTTAGGTCGTCCTGGAAGATTTTTAGGGGACGATCAGCTATATAACGTCATTGTTACGGCCCATGCTTTAGTTATAATTTTCTTTATGGTTATGCCTTTAATGGTCGGGGGTTTTGGGAATTGGCTTCTTCCATTAATAATAGGTTCTGTAGATATAATTTTTCCGCGACTTAACAATTTGAGATTTTGGTTTCTCCCCTCTTCATTATTTATACTGTTGAGGTCTACTTTCATTGAAAGCGGGTCCGGTACTGGATGGACTTTATATCCTCCTTTGTCTTCATATACAGGACATAGTGGCCCAGCTGTTGACATATCTTTATTTTCTTTACATTTGGCAGGTGCTTCTTCTATTGGTGGATCTATTAACTTTTTAACTAGTATAAAAAATATGCCGGTGGAGGTAATGCGAGGAGAGCGGATAATGTTGTTCTTGTGGTCTATGGTGGTAACAGCTGTTCTTTTATTGGTGTCTTTGCCTGTGCTGGCTGGCGGTATTACTATGCTGATTTTTGATCGTCATT</Hsp_hseq>
+      <Hsp_midline>||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| |||| |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| |||||||||||||||||||||||||||||||||||||| |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| ||||||||||||||||||||||||||||||||| ||||||||||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>34</Hit_num>
+  <Hit_id>gi|1877092319|gb|MT735949.1|</Hit_id>
+  <Hit_def>Modiolus modiolus isolate SCO_HM009 cytochrome oxidase subunit 1 (COI) gene, partial cds; mitochondrial &gt;gi|1877092367|gb|MT735973.1| Modiolus modiolus isolate SCO_HM157 cytochrome oxidase subunit 1 (COI) gene, partial cds; mitochondrial</Hit_def>
+  <Hit_accession>MT735949</Hit_accession>
+  <Hit_len>603</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>1005.76</Hsp_bit-score>
+      <Hsp_score>1114</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>9</Hsp_query-from>
+      <Hsp_query-to>580</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>572</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>566</Hsp_identity>
+      <Hsp_positive>566</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>572</Hsp_align-len>
+      <Hsp_qseq>TTGATCGGGAATGGTGGGGATTGGTTTAAGAATGTTAATTCGAATTGAGTTAGGTCGTCCTGGAAGATTTTTAGGGGACGATCAGTTATACAACGTCATTGTTACGGCCCATGCTTTAGTTATAATTTTCTTTATGGTTATGCCTTTAATGGTCGGGGGTTTTGGGAATTGGCTTCTTCCATTAATAATAGGTTCTGTAGATATAATTTTTCCGCGACTTAACAATTTGAGATTTTGGTTTCTCCCCTCTTCATTATTTATACTGTTGAGGTCTACTTTTATTGAAAGCGGGTCCGGTACTGGATGGACTTTATATCCCCCTTTGTCTTCATATACAGGACATAGTGGCCCAGCTGTTGACATATCTTTATTTTCTTTACATTTGGCAGGTGCTTCTTCTATTGGTGGATCTATTAACTTTTTAACTAGTATAAAAAATATGCCGGTGGAGGTAATGCGAGGAGAGCGGATAATGTTGTTCTTGTGGTCTATGGTGGTAACAGCTGTTCTTTTATTGGTTTCTTTGCCTGTGCTGGCTGGCGGTATTACTATGTTGATTTTTGATCGTCATT</Hsp_qseq>
+      <Hsp_hseq>TTGATCGGGAATGGTGGGGATTGGTTTAAGAATGTTAATTCGAATTGAGTTAGGTCGTCCTGGAAGATTTTTAGGGGACGATCAGCTATATAACGTCATTGTTACGGCCCATGCTTTAGTTATAATTTTCTTTATGGTTATGCCTTTAATGGTCGGGGGTTTTGGGAATTGGCTTCTTCCATTAATAATAGGTTCTGTAGATATAATTTTTCCGCGACTTAACAATTTGAGATTTTGGTTTCTCCCCTCTTCATTATTTATACTGTTGAGGTCTACTTTTATTGAAAGCGGGTCCGGTACTGGATGGACTTTATATCCTCCTTTGTCTTCATATACAGGACATAGTGGCCCAGCTGTTGACATATCTTTATTTTCTTTACATTTGGCAGGTGCTTCTTCTATTGGTGGCTCTATTAACTTTTTAACTAGTATAAAAAATATGCCGGTGGAGGTAATGCGAGGAGAGCGGATAATGTTGTTCTTGTGGTCTATGGTGGTAACAGCTGTTCTTTTATTGGTGTCTTTGCCTGTGCTGGCTGGCGGTATTACTATGCTGATTTTTGATCGTCATT</Hsp_hseq>
+      <Hsp_midline>||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| |||| ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| ||||||||||||||||||||||||||||||||| ||||||||||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>35</Hit_num>
+  <Hit_id>gi|1877092311|gb|MT735945.1|</Hit_id>
+  <Hit_def>Modiolus modiolus isolate SCO_HM005 cytochrome oxidase subunit 1 (COI) gene, partial cds; mitochondrial</Hit_def>
+  <Hit_accession>MT735945</Hit_accession>
+  <Hit_len>603</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>1005.76</Hsp_bit-score>
+      <Hsp_score>1114</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>9</Hsp_query-from>
+      <Hsp_query-to>580</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>572</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>566</Hsp_identity>
+      <Hsp_positive>566</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>572</Hsp_align-len>
+      <Hsp_qseq>TTGATCGGGAATGGTGGGGATTGGTTTAAGAATGTTAATTCGAATTGAGTTAGGTCGTCCTGGAAGATTTTTAGGGGACGATCAGTTATACAACGTCATTGTTACGGCCCATGCTTTAGTTATAATTTTCTTTATGGTTATGCCTTTAATGGTCGGGGGTTTTGGGAATTGGCTTCTTCCATTAATAATAGGTTCTGTAGATATAATTTTTCCGCGACTTAACAATTTGAGATTTTGGTTTCTCCCCTCTTCATTATTTATACTGTTGAGGTCTACTTTTATTGAAAGCGGGTCCGGTACTGGATGGACTTTATATCCCCCTTTGTCTTCATATACAGGACATAGTGGCCCAGCTGTTGACATATCTTTATTTTCTTTACATTTGGCAGGTGCTTCTTCTATTGGTGGATCTATTAACTTTTTAACTAGTATAAAAAATATGCCGGTGGAGGTAATGCGAGGAGAGCGGATAATGTTGTTCTTGTGGTCTATGGTGGTAACAGCTGTTCTTTTATTGGTTTCTTTGCCTGTGCTGGCTGGCGGTATTACTATGTTGATTTTTGATCGTCATT</Hsp_qseq>
+      <Hsp_hseq>TTGATCGGGAATGGTGGGGATTGGTTTAAGAATGTTAATTCGAATTGAGTTAGGTCGTCCTGGAAGATTTTTAGGGGACGATCAGCTATATAACGTCATTGTTACGGCCCATGCTTTAGTTATAATTTTCTTTATGGTTATGCCTTTAATGGTCGGGGGTTTTGGGAATTGGCTTCTTCCATTAATAATAGGTTCTGTAGATATAATTTTTCCGCGACTTAACAATTTGAGATTTTGGTTTCTCCCCTCTTCATTATTTATACTGTTGAGGTCTACTTTTATTGAAAGCGGGTCCGGTACTGGATGGACTTTATATCCTCCTTTGTCTTCATATACAGGACATAGTGGCCCAGCTGTCGACATATCTTTATTTTCTTTACATTTGGCAGGTGCTTCTTCTATTGGTGGATCTATTAACTTTTTAACTAGTATAAAAAATATGCCGGTGGAGGTAATGCGAGGAGAGCGGATAATGTTGTTCTTGTGGTCTATGGTGGTAACAGCTGTTCTTTTATTGGTGTCTTTGCCTGTGCTGGCTGGCGGTATTACTATGCTGATTTTTGATCGTCATT</Hsp_hseq>
+      <Hsp_midline>||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| |||| ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| |||||||||||||||||||||||||||||||||||||| ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| ||||||||||||||||||||||||||||||||| ||||||||||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>36</Hit_num>
+  <Hit_id>gi|1877092275|gb|MT735927.1|</Hit_id>
+  <Hit_def>Modiolus modiolus isolate ORE_HM095 cytochrome oxidase subunit 1 (COI) gene, partial cds; mitochondrial &gt;gi|1877092289|gb|MT735934.1| Modiolus modiolus isolate ORE_HM102 cytochrome oxidase subunit 1 (COI) gene, partial cds; mitochondrial &gt;gi|1877092303|gb|MT735941.1| Modiolus modiolus isolate ORE_HM109 cytochrome oxidase subunit 1 (COI) gene, partial cds; mitochondrial</Hit_def>
+  <Hit_accession>MT735927</Hit_accession>
+  <Hit_len>603</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>1005.76</Hsp_bit-score>
+      <Hsp_score>1114</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>9</Hsp_query-from>
+      <Hsp_query-to>580</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>572</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>566</Hsp_identity>
+      <Hsp_positive>566</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>572</Hsp_align-len>
+      <Hsp_qseq>TTGATCGGGAATGGTGGGGATTGGTTTAAGAATGTTAATTCGAATTGAGTTAGGTCGTCCTGGAAGATTTTTAGGGGACGATCAGTTATACAACGTCATTGTTACGGCCCATGCTTTAGTTATAATTTTCTTTATGGTTATGCCTTTAATGGTCGGGGGTTTTGGGAATTGGCTTCTTCCATTAATAATAGGTTCTGTAGATATAATTTTTCCGCGACTTAACAATTTGAGATTTTGGTTTCTCCCCTCTTCATTATTTATACTGTTGAGGTCTACTTTTATTGAAAGCGGGTCCGGTACTGGATGGACTTTATATCCCCCTTTGTCTTCATATACAGGACATAGTGGCCCAGCTGTTGACATATCTTTATTTTCTTTACATTTGGCAGGTGCTTCTTCTATTGGTGGATCTATTAACTTTTTAACTAGTATAAAAAATATGCCGGTGGAGGTAATGCGAGGAGAGCGGATAATGTTGTTCTTGTGGTCTATGGTGGTAACAGCTGTTCTTTTATTGGTTTCTTTGCCTGTGCTGGCTGGCGGTATTACTATGTTGATTTTTGATCGTCATT</Hsp_qseq>
+      <Hsp_hseq>TTGATCGGGAATGGTGGGGATTGGTTTAAGAATGTTAATTCGAATTGAGTTAGGTCGTCCTGGAAGATTTTTAGGGGACGATCAGCTATATAACGTCATTGTTACGGCCCATGCGTTAGTTATAATTTTCTTTATGGTTATGCCTTTAATGGTCGGGGGTTTTGGGAATTGGCTTCTTCCATTAATAATAGGTTCTGTAGATATAATTTTTCCGCGACTTAACAATTTGAGATTTTGGTTTCTCCCCTCTTCATTATTTATACTGTTGAGGTCTACTTTTATTGAAAGCGGGTCCGGTACTGGATGGACTTTATATCCTCCTTTGTCTTCATATACAGGACATAGTGGCCCAGCTGTTGACATATCTTTATTTTCTTTACATTTGGCAGGTGCTTCTTCTATTGGTGGATCTATTAACTTTTTAACTAGTATAAAAAATATGCCGGTGGAGGTAATGCGAGGAGAGCGGATAATGTTGTTCTTGTGGTCTATGGTGGTAACAGCTGTTCTTTTATTGGTGTCTTTGCCTGTGCTGGCTGGCGGTATTACTATGCTGATTTTTGATCGTCATT</Hsp_hseq>
+      <Hsp_midline>||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| |||| ||||||||||||||||||||||| ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| ||||||||||||||||||||||||||||||||| ||||||||||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>37</Hit_num>
+  <Hit_id>gi|1877092261|gb|MT735920.1|</Hit_id>
+  <Hit_def>Modiolus modiolus isolate ORE_HM088 cytochrome oxidase subunit 1 (COI) gene, partial cds; mitochondrial</Hit_def>
+  <Hit_accession>MT735920</Hit_accession>
+  <Hit_len>603</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>1005.76</Hsp_bit-score>
+      <Hsp_score>1114</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>9</Hsp_query-from>
+      <Hsp_query-to>580</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>572</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>566</Hsp_identity>
+      <Hsp_positive>566</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>572</Hsp_align-len>
+      <Hsp_qseq>TTGATCGGGAATGGTGGGGATTGGTTTAAGAATGTTAATTCGAATTGAGTTAGGTCGTCCTGGAAGATTTTTAGGGGACGATCAGTTATACAACGTCATTGTTACGGCCCATGCTTTAGTTATAATTTTCTTTATGGTTATGCCTTTAATGGTCGGGGGTTTTGGGAATTGGCTTCTTCCATTAATAATAGGTTCTGTAGATATAATTTTTCCGCGACTTAACAATTTGAGATTTTGGTTTCTCCCCTCTTCATTATTTATACTGTTGAGGTCTACTTTTATTGAAAGCGGGTCCGGTACTGGATGGACTTTATATCCCCCTTTGTCTTCATATACAGGACATAGTGGCCCAGCTGTTGACATATCTTTATTTTCTTTACATTTGGCAGGTGCTTCTTCTATTGGTGGATCTATTAACTTTTTAACTAGTATAAAAAATATGCCGGTGGAGGTAATGCGAGGAGAGCGGATAATGTTGTTCTTGTGGTCTATGGTGGTAACAGCTGTTCTTTTATTGGTTTCTTTGCCTGTGCTGGCTGGCGGTATTACTATGTTGATTTTTGATCGTCATT</Hsp_qseq>
+      <Hsp_hseq>TTGATCGGGAATGGTGGGGATTGGTTTAAGAATGTTAATTCGAATTGAGTTAGGTCGTCCTGGAAGATTTTTAGGGGACGATCAGCTATATAACGTCATTGTTACGGCCCATGCTTTAGTTATAATTTTCTTTATGGTTATGCCTTTAATGGTCGGGGGTTTTGGGAATTGGCTTCTTCCATTAATAATAGGTTCTGTAGATATAATTTTTTCGCGACTTAACAATTTGAGATTTTGGTTTCTCCCCTCTTCATTATTTATACTGTTGAGGTCTACTTTTATTGAAAGCGGGTCCGGTACTGGATGGACTTTATATCCTCCTTTGTCTTCATATACAGGACATAGTGGCCCAGCTGTTGACATATCTTTATTTTCTTTACATTTGGCAGGTGCTTCTTCTATTGGTGGATCTATTAACTTTTTAACTAGTATAAAAAATATGCCGGTGGAGGTAATGCGAGGAGAGCGGATAATGTTGTTCTTGTGGTCTATGGTGGTAACAGCTGTTCTTTTATTGGTGTCTTTGCCTGTGCTGGCTGGCGGTATTACTATGCTGATTTTTGATCGTCATT</Hsp_hseq>
+      <Hsp_midline>||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| |||| |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| ||||||||||||||||||||||||||||||||| ||||||||||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>38</Hit_num>
+  <Hit_id>gi|485099839|gb|KC119340.1|</Hit_id>
+  <Hit_def>Modiolus modiolus isolate Mo5 cytochrome c oxidase subunit 1 (CO1) gene, partial cds; mitochondrial</Hit_def>
+  <Hit_accession>KC119340</Hit_accession>
+  <Hit_len>598</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>1003.06</Hsp_bit-score>
+      <Hsp_score>1111</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>13</Hsp_query-from>
+      <Hsp_query-to>580</Hsp_query-to>
+      <Hsp_hit-from>598</Hsp_hit-from>
+      <Hsp_hit-to>31</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>-1</Hsp_hit-frame>
+      <Hsp_identity>563</Hsp_identity>
+      <Hsp_positive>563</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>568</Hsp_align-len>
+      <Hsp_qseq>TCGGGAATGGTGGGGATTGGTTTAAGAATGTTAATTCGAATTGAGTTAGGTCGTCCTGGAAGATTTTTAGGGGACGATCAGTTATACAACGTCATTGTTACGGCCCATGCTTTAGTTATAATTTTCTTTATGGTTATGCCTTTAATGGTCGGGGGTTTTGGGAATTGGCTTCTTCCATTAATAATAGGTTCTGTAGATATAATTTTTCCGCGACTTAACAATTTGAGATTTTGGTTTCTCCCCTCTTCATTATTTATACTGTTGAGGTCTACTTTTATTGAAAGCGGGTCCGGTACTGGATGGACTTTATATCCCCCTTTGTCTTCATATACAGGACATAGTGGCCCAGCTGTTGACATATCTTTATTTTCTTTACATTTGGCAGGTGCTTCTTCTATTGGTGGATCTATTAACTTTTTAACTAGTATAAAAAATATGCCGGTGGAGGTAATGCGAGGAGAGCGGATAATGTTGTTCTTGTGGTCTATGGTGGTAACAGCTGTTCTTTTATTGGTTTCTTTGCCTGTGCTGGCTGGCGGTATTACTATGTTGATTTTTGATCGTCATT</Hsp_qseq>
+      <Hsp_hseq>TCGGGAATGGTGGGGATTGGTTTAAGAATGTTAATTCGAATTGAGTTAGGTCGTCCTGGAAGATTTTTAGGGGACGATCAGCTATATAACGTCATTGTTACGGCCCATGCTTTAGTTATAATTTTCTTTATGGTTATGCCTTTAATGGTCGGGGGTTTTGGGAATTGGCTTCTTCCATTAATAATAGGTTCTGTAGATATAATTTTTCCGCGACTTAACAATTTGAGATTTTGGTTTCTCCCCTCTTCATTATTTATACTGTTGAGGTCTACTTTTATTGAAAGCGGGTCCGGTACTGGATGGACTTTATATCCTCCTTTGTCTTCATATACAGGACATAGTGGCCCAGCTGTTGACATATCTTTATTTTCTTTACATTTGGCAGGTGCTTCTTCTATTGGTGGATCTATTAACTTTTTAACTAGTATAAAAAATATGCCGGTGGAGGTAATGCGAGGAGAGCGGATAATGTTGTTCTTGTGGTCTATGGTGGTAACAGCTGTTCTTTTATTGGTGTCTTTGCCTGTGCTGGCTGGCGGTATTACTATGCTGATTTTTGATCGTCATT</Hsp_hseq>
+      <Hsp_midline>||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| |||| ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| ||||||||||||||||||||||||||||||||| ||||||||||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>39</Hit_num>
+  <Hit_id>gi|1176995480|gb|KX452401.1|</Hit_id>
+  <Hit_def>Modiolus modiolus isolate MM4 cytochrome oxidase subunit 1 (cox1) gene, partial cds; mitochondrial &gt;gi|1176999632|gb|KX901459.1| Modiolus modiolus isolate MM3.1 cytochrome oxidase subunit 1 (cox1) gene, partial cds; mitochondrial</Hit_def>
+  <Hit_accession>KX452401</Hit_accession>
+  <Hit_len>611</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>1001.25</Hsp_bit-score>
+      <Hsp_score>1109</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>9</Hsp_query-from>
+      <Hsp_query-to>580</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>572</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>565</Hsp_identity>
+      <Hsp_positive>565</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>572</Hsp_align-len>
+      <Hsp_qseq>TTGATCGGGAATGGTGGGGATTGGTTTAAGAATGTTAATTCGAATTGAGTTAGGTCGTCCTGGAAGATTTTTAGGGGACGATCAGTTATACAACGTCATTGTTACGGCCCATGCTTTAGTTATAATTTTCTTTATGGTTATGCCTTTAATGGTCGGGGGTTTTGGGAATTGGCTTCTTCCATTAATAATAGGTTCTGTAGATATAATTTTTCCGCGACTTAACAATTTGAGATTTTGGTTTCTCCCCTCTTCATTATTTATACTGTTGAGGTCTACTTTTATTGAAAGCGGGTCCGGTACTGGATGGACTTTATATCCCCCTTTGTCTTCATATACAGGACATAGTGGCCCAGCTGTTGACATATCTTTATTTTCTTTACATTTGGCAGGTGCTTCTTCTATTGGTGGATCTATTAACTTTTTAACTAGTATAAAAAATATGCCGGTGGAGGTAATGCGAGGAGAGCGGATAATGTTGTTCTTGTGGTCTATGGTGGTAACAGCTGTTCTTTTATTGGTTTCTTTGCCTGTGCTGGCTGGCGGTATTACTATGTTGATTTTTGATCGTCATT</Hsp_qseq>
+      <Hsp_hseq>TTGATCGGGAATGGTGGGGATTGGTTTAAGAATGTTGATTCGAATTGAGTTAGGTCGTCCTGGAAGATTTTTAGGGGACGATCAGCTATATAACGTCATCGTTACGGCCCATGCTTTAGTTATAATTTTCTTTATGGTTATGCCTTTAATGGTCGGGGGTTTTGGGAATTGGCTTCTTCCATTAATAATAGGTTCTGTAGATATAATTTTTCCGCGACTTAACAATTTGAGATTTTGGTTTCTCCCCTCTTCATTATTTATACTGTTGAGGTCTACTTTTATTGAAAGCGGGTCCGGTACTGGATGGACTTTATATCCTCCTTTGTCTTCATATACAGGACATAGTGGCCCAGCTGTTGACATATCTTTATTTTCTTTACATTTGGCAGGTGCTTCTTCTATTGGTGGATCTATTAACTTTTTAACTAGTATAAAAAATATGCCGGTGGAGGTAATGCGAGGAGAGCGGATAATGTTGTTCTTGTGGTCTATGGTGGTAACAGCTGTTCTTTTATTGGTGTCTTTGCCTGTGCTGGCTGGCGGTATTACTATGCTGATTTTTGATCGTCATT</Hsp_hseq>
+      <Hsp_midline>|||||||||||||||||||||||||||||||||||| |||||||||||||||||||||||||||||||||||||||||||||||| |||| |||||||| |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| ||||||||||||||||||||||||||||||||| ||||||||||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>40</Hit_num>
+  <Hit_id>gi|1877092487|gb|MT736033.1|</Hit_id>
+  <Hit_def>Modiolus modiolus isolate NFL_HM137 cytochrome oxidase subunit 1 (COI) gene, partial cds; mitochondrial &gt;gi|1877092509|gb|MT736044.1| Modiolus modiolus isolate USM_HM120 cytochrome oxidase subunit 1 (COI) gene, partial cds; mitochondrial</Hit_def>
+  <Hit_accession>MT736033</Hit_accession>
+  <Hit_len>603</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>1001.25</Hsp_bit-score>
+      <Hsp_score>1109</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>9</Hsp_query-from>
+      <Hsp_query-to>580</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>572</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>565</Hsp_identity>
+      <Hsp_positive>565</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>572</Hsp_align-len>
+      <Hsp_qseq>TTGATCGGGAATGGTGGGGATTGGTTTAAGAATGTTAATTCGAATTGAGTTAGGTCGTCCTGGAAGATTTTTAGGGGACGATCAGTTATACAACGTCATTGTTACGGCCCATGCTTTAGTTATAATTTTCTTTATGGTTATGCCTTTAATGGTCGGGGGTTTTGGGAATTGGCTTCTTCCATTAATAATAGGTTCTGTAGATATAATTTTTCCGCGACTTAACAATTTGAGATTTTGGTTTCTCCCCTCTTCATTATTTATACTGTTGAGGTCTACTTTTATTGAAAGCGGGTCCGGTACTGGATGGACTTTATATCCCCCTTTGTCTTCATATACAGGACATAGTGGCCCAGCTGTTGACATATCTTTATTTTCTTTACATTTGGCAGGTGCTTCTTCTATTGGTGGATCTATTAACTTTTTAACTAGTATAAAAAATATGCCGGTGGAGGTAATGCGAGGAGAGCGGATAATGTTGTTCTTGTGGTCTATGGTGGTAACAGCTGTTCTTTTATTGGTTTCTTTGCCTGTGCTGGCTGGCGGTATTACTATGTTGATTTTTGATCGTCATT</Hsp_qseq>
+      <Hsp_hseq>TTGATCGGGAATGGTGGGGATTGGTTTAAGAATGTTAATTCGAATTGAGTTAGGTCGTCCTGGAAGATTTTTAGGGGACGATCAGCTATATAACGTCATTGTTACGGCCCATGCTTTAGTTATAATTTTCTTTATGGTTATGCCTTTAATGGTCGGGGGTTTTGGGAATTGGCTTCTTCCATTAATAATAGGTTCTGTAGATATAATTTTTCCGCGACTTAACAATTTGAGATTTTGGTTTCTCCCCTCTTCATTATTTATACTGTTGAGGTCTACTTTTATTGAAAGCGGGTCCGGTACTGGATGGACTTTATACCCTCCTTTGTCTTCATATACAGGACATAGTGGCCCAGCTGTTGACATATCTTTATTTTCTTTACATTTGGCAGGTGCTTCTTCTATTGGTGGATCTATTAACTTTTTAACTAGTATAAAAAATATGCCGGTGGAGGTAATGCGAGGAGAGCGGATAATGTTGTTCTTGTGGTCTATGGTGGTAACAGCTGTTCTTTTATTGGTGTCTTTGCCTGTGCTGGCTGGTGGTATTACTATGCTGATTTTTGATCGTCATT</Hsp_hseq>
+      <Hsp_midline>||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| |||| |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| || |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| |||||||||||||||||||| |||||||||||| ||||||||||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>41</Hit_num>
+  <Hit_id>gi|1877092465|gb|MT736022.1|</Hit_id>
+  <Hit_def>Modiolus modiolus isolate NFL_HM021 cytochrome oxidase subunit 1 (COI) gene, partial cds; mitochondrial &gt;gi|1877092467|gb|MT736023.1| Modiolus modiolus isolate NFL_HM022 cytochrome oxidase subunit 1 (COI) gene, partial cds; mitochondrial &gt;gi|1877092481|gb|MT736030.1| Modiolus modiolus isolate NFL_HM134 cytochrome oxidase subunit 1 (COI) gene, partial cds; mitochondrial &gt;gi|1877092483|gb|MT736031.1| Modiolus modiolus isolate NFL_HM135 cytochrome oxidase subunit 1 (COI) gene, partial cds; mitochondrial &gt;gi|1877092491|gb|MT736035.1| Modiolus modiolus isolate NFL_HM139 cytochrome oxidase subunit 1 (COI) gene, partial cds; mitochondrial &gt;gi|1877092497|gb|MT736038.1| Modiolus modiolus isolate NFL_HM142 cytochrome oxidase subunit 1 (COI) gene, partial cds; mitochondrial &gt;gi|1877092517|gb|MT736048.1| Modiolus modiolus isolate USMR_HM124 cytochrome oxidase subunit 1 (COI) gene, partial cds; mitochondrial &gt;gi|1877092541|gb|MT736060.1| Modiolus modiolus isolate USM_HM205 cytochrome oxidase subunit 1 (COI) gene, partial cds; mitochondrial</Hit_def>
+  <Hit_accession>MT736022</Hit_accession>
+  <Hit_len>603</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>1001.25</Hsp_bit-score>
+      <Hsp_score>1109</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>9</Hsp_query-from>
+      <Hsp_query-to>580</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>572</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>565</Hsp_identity>
+      <Hsp_positive>565</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>572</Hsp_align-len>
+      <Hsp_qseq>TTGATCGGGAATGGTGGGGATTGGTTTAAGAATGTTAATTCGAATTGAGTTAGGTCGTCCTGGAAGATTTTTAGGGGACGATCAGTTATACAACGTCATTGTTACGGCCCATGCTTTAGTTATAATTTTCTTTATGGTTATGCCTTTAATGGTCGGGGGTTTTGGGAATTGGCTTCTTCCATTAATAATAGGTTCTGTAGATATAATTTTTCCGCGACTTAACAATTTGAGATTTTGGTTTCTCCCCTCTTCATTATTTATACTGTTGAGGTCTACTTTTATTGAAAGCGGGTCCGGTACTGGATGGACTTTATATCCCCCTTTGTCTTCATATACAGGACATAGTGGCCCAGCTGTTGACATATCTTTATTTTCTTTACATTTGGCAGGTGCTTCTTCTATTGGTGGATCTATTAACTTTTTAACTAGTATAAAAAATATGCCGGTGGAGGTAATGCGAGGAGAGCGGATAATGTTGTTCTTGTGGTCTATGGTGGTAACAGCTGTTCTTTTATTGGTTTCTTTGCCTGTGCTGGCTGGCGGTATTACTATGTTGATTTTTGATCGTCATT</Hsp_qseq>
+      <Hsp_hseq>TTGATCGGGAATGGTGGGGATTGGTTTAAGAATGTTGATTCGAATTGAGTTAGGTCGTCCTGGAAGATTTTTAGGGGACGATCAGCTATATAACGTCATCGTTACGGCCCATGCTTTAGTTATAATTTTCTTTATGGTTATGCCTTTAATGGTCGGGGGTTTTGGGAATTGGCTTCTTCCATTAATAATAGGTTCTGTAGATATAATTTTTCCGCGACTTAACAATTTGAGATTTTGGTTTCTCCCCTCTTCATTATTTATACTGTTGAGGTCTACTTTTATTGAAAGCGGGTCCGGTACTGGATGGACTTTATATCCTCCTTTGTCTTCATATACAGGACATAGTGGCCCAGCTGTTGACATATCTTTATTTTCTTTACATTTGGCAGGTGCTTCTTCTATTGGTGGATCTATTAACTTTTTAACTAGTATAAAAAATATGCCGGTGGAGGTAATGCGAGGAGAGCGGATAATGTTGTTCTTGTGGTCTATGGTGGTAACAGCTGTTCTTTTATTGGTGTCTTTGCCTGTGCTGGCTGGCGGTATTACTATGCTGATTTTTGATCGTCATT</Hsp_hseq>
+      <Hsp_midline>|||||||||||||||||||||||||||||||||||| |||||||||||||||||||||||||||||||||||||||||||||||| |||| |||||||| |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| ||||||||||||||||||||||||||||||||| ||||||||||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>42</Hit_num>
+  <Hit_id>gi|1877092375|gb|MT735977.1|</Hit_id>
+  <Hit_def>Modiolus modiolus isolate TRO_HM177 cytochrome oxidase subunit 1 (COI) gene, partial cds; mitochondrial</Hit_def>
+  <Hit_accession>MT735977</Hit_accession>
+  <Hit_len>603</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>1001.25</Hsp_bit-score>
+      <Hsp_score>1109</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>9</Hsp_query-from>
+      <Hsp_query-to>580</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>572</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>565</Hsp_identity>
+      <Hsp_positive>565</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>572</Hsp_align-len>
+      <Hsp_qseq>TTGATCGGGAATGGTGGGGATTGGTTTAAGAATGTTAATTCGAATTGAGTTAGGTCGTCCTGGAAGATTTTTAGGGGACGATCAGTTATACAACGTCATTGTTACGGCCCATGCTTTAGTTATAATTTTCTTTATGGTTATGCCTTTAATGGTCGGGGGTTTTGGGAATTGGCTTCTTCCATTAATAATAGGTTCTGTAGATATAATTTTTCCGCGACTTAACAATTTGAGATTTTGGTTTCTCCCCTCTTCATTATTTATACTGTTGAGGTCTACTTTTATTGAAAGCGGGTCCGGTACTGGATGGACTTTATATCCCCCTTTGTCTTCATATACAGGACATAGTGGCCCAGCTGTTGACATATCTTTATTTTCTTTACATTTGGCAGGTGCTTCTTCTATTGGTGGATCTATTAACTTTTTAACTAGTATAAAAAATATGCCGGTGGAGGTAATGCGAGGAGAGCGGATAATGTTGTTCTTGTGGTCTATGGTGGTAACAGCTGTTCTTTTATTGGTTTCTTTGCCTGTGCTGGCTGGCGGTATTACTATGTTGATTTTTGATCGTCATT</Hsp_qseq>
+      <Hsp_hseq>TTGATCGGGAATGGTGGGGATTGGTTTAAGAATGTTAATTCGAATTGAGTTAGGTCGTCCTGGAAGATTTTTAGGGGACGATCAGCTATATAACGTCATTGTTACGGCCCATGCTTTAGTTATAATTTTCTTTATGGTTATGCCTTTAATGGTCGGGGGTTTTGGGAATTGGCTTCTTCCATTAATAATAGGTTCTGTAGATATAATTTTTCCGCGACTTAACAATTTGAGATTTTGGTTTCTCCCCTCTTCATTATTTATACTGTTGAGGTCTACTTTTATTGAAAGCGGGTCCGGTACTGGATGGACTTTATACCCTCCTTTGTCTTCATATACAGGACATAGTGGCCCAGCTGTTGACATATCTTTATTTTCTTTACATTTGGCAGGTGCTTCTTCTATTGGTGGATCTATTAACTTTTTAACTAGTATAAAAAATATGCCGGTGGAGGTAATGCGAGGAGAGCGGATAATGTTGTTCTTGTGGTCTATGGTGGTAACAGCTGTTCTTTTATTGGTGTCTTTGCCTGTGCTGGCCGGCGGTATTACTATGCTGATTTTTGATCGTCATT</Hsp_hseq>
+      <Hsp_midline>||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| |||| |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| || |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| ||||||||||||||||| ||||||||||||||| ||||||||||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>43</Hit_num>
+  <Hit_id>gi|1877092369|gb|MT735974.1|</Hit_id>
+  <Hit_def>Modiolus modiolus isolate TRO_HM029 cytochrome oxidase subunit 1 (COI) gene, partial cds; mitochondrial &gt;gi|1877092409|gb|MT735994.1| Modiolus modiolus isolate TUV_HM174 cytochrome oxidase subunit 1 (COI) gene, partial cds; mitochondrial</Hit_def>
+  <Hit_accession>MT735974</Hit_accession>
+  <Hit_len>603</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>1001.25</Hsp_bit-score>
+      <Hsp_score>1109</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>9</Hsp_query-from>
+      <Hsp_query-to>580</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>572</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>565</Hsp_identity>
+      <Hsp_positive>565</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>572</Hsp_align-len>
+      <Hsp_qseq>TTGATCGGGAATGGTGGGGATTGGTTTAAGAATGTTAATTCGAATTGAGTTAGGTCGTCCTGGAAGATTTTTAGGGGACGATCAGTTATACAACGTCATTGTTACGGCCCATGCTTTAGTTATAATTTTCTTTATGGTTATGCCTTTAATGGTCGGGGGTTTTGGGAATTGGCTTCTTCCATTAATAATAGGTTCTGTAGATATAATTTTTCCGCGACTTAACAATTTGAGATTTTGGTTTCTCCCCTCTTCATTATTTATACTGTTGAGGTCTACTTTTATTGAAAGCGGGTCCGGTACTGGATGGACTTTATATCCCCCTTTGTCTTCATATACAGGACATAGTGGCCCAGCTGTTGACATATCTTTATTTTCTTTACATTTGGCAGGTGCTTCTTCTATTGGTGGATCTATTAACTTTTTAACTAGTATAAAAAATATGCCGGTGGAGGTAATGCGAGGAGAGCGGATAATGTTGTTCTTGTGGTCTATGGTGGTAACAGCTGTTCTTTTATTGGTTTCTTTGCCTGTGCTGGCTGGCGGTATTACTATGTTGATTTTTGATCGTCATT</Hsp_qseq>
+      <Hsp_hseq>TTGATCGGGAATGGTGGGGATTGGTTTAAGAATGTTAATTCGAATTGAGTTAGGTCGTCCTGGAAGATTTTTAGGGGACGATCAGCTATATAACGTCATTGTTACGGCCCATGCTTTAGTTATAATTTTCTTTATGGTTATGCCTTTAATGGTCGGGGGTTTTGGGAATTGGCTTCTTCCATTAATAATAGGTTCTGTAGATATAATTTTTCCGCGACTTAACAATTTGAGATTTTGGTTTCTCCCCTCTTCATTATTTATACTGTTGAGGTCTACTTTTATTGAAAGTGGGTCCGGTACTGGATGGACTTTATATCCTCCTTTGTCTTCATATACAGGACATAGTGGCCCAGCTGTTGACATATCTTTATTTTCTTTACATTTGGCAGGTGCTTCTTCTATTGGTGGATCTATTAACTTTTTAACTAGTATAAAAAATATGCCGGTGGAGGTAATGCGAGGAGAGCGGATAATGCTGTTCTTGTGGTCTATGGTGGTAACAGCTGTTCTTTTATTGGTGTCTTTGCCTGTGCTGGCTGGCGGTATTACTATGCTGATTTTTGATCGTCATT</Hsp_hseq>
+      <Hsp_midline>||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| |||| ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| ||||||||||||||||||||||||||||| |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| ||||||||||||||||||||||||||||||||||||||||||| ||||||||||||||||||||||||||||||||| ||||||||||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>44</Hit_num>
+  <Hit_id>gi|1877092351|gb|MT735965.1|</Hit_id>
+  <Hit_def>Modiolus modiolus isolate SCO_HM149 cytochrome oxidase subunit 1 (COI) gene, partial cds; mitochondrial &gt;gi|1877092357|gb|MT735968.1| Modiolus modiolus isolate SCO_HM152 cytochrome oxidase subunit 1 (COI) gene, partial cds; mitochondrial</Hit_def>
+  <Hit_accession>MT735965</Hit_accession>
+  <Hit_len>603</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>1001.25</Hsp_bit-score>
+      <Hsp_score>1109</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>9</Hsp_query-from>
+      <Hsp_query-to>580</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>572</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>565</Hsp_identity>
+      <Hsp_positive>565</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>572</Hsp_align-len>
+      <Hsp_qseq>TTGATCGGGAATGGTGGGGATTGGTTTAAGAATGTTAATTCGAATTGAGTTAGGTCGTCCTGGAAGATTTTTAGGGGACGATCAGTTATACAACGTCATTGTTACGGCCCATGCTTTAGTTATAATTTTCTTTATGGTTATGCCTTTAATGGTCGGGGGTTTTGGGAATTGGCTTCTTCCATTAATAATAGGTTCTGTAGATATAATTTTTCCGCGACTTAACAATTTGAGATTTTGGTTTCTCCCCTCTTCATTATTTATACTGTTGAGGTCTACTTTTATTGAAAGCGGGTCCGGTACTGGATGGACTTTATATCCCCCTTTGTCTTCATATACAGGACATAGTGGCCCAGCTGTTGACATATCTTTATTTTCTTTACATTTGGCAGGTGCTTCTTCTATTGGTGGATCTATTAACTTTTTAACTAGTATAAAAAATATGCCGGTGGAGGTAATGCGAGGAGAGCGGATAATGTTGTTCTTGTGGTCTATGGTGGTAACAGCTGTTCTTTTATTGGTTTCTTTGCCTGTGCTGGCTGGCGGTATTACTATGTTGATTTTTGATCGTCATT</Hsp_qseq>
+      <Hsp_hseq>TTGATCGGGAATGGTGGGGATTGGTTTAAGAATGTTAATTCGAATTGAGTTAGGTCGTCCTGGAAGATTTTTAGGGGACGATCAGCTATATAACGTCATTGTTACGGCCCATGCTTTAGTTATAATTTTCTTTATGGTTATGCCTTTAATGGTCGGGGGTTTTGGGAATTGGCTTCTTCCATTAATAATAGGTTCTGTAGATATAATTTTTCCGCGACTTAACAATCTGAGATTTTGGTTTCTCCCCTCTTCATTATTTATACTGTTGAGGTCTACTTTTATTGAAAGCGGGTCCGGTACTGGATGGACTTTATATCCTCCTTTGTCTTCATATACAGGACATAGTGGCCCAGCTGTTGACATATCTTTATTTTCTTTACATTTGGCAGGTGCTTCTTCTATTGGTGGATCTATTAACTTTTTAACTAGTATAAAAAATATGCCGGTGGAGGTAATGCGAGGAGAGCGGATAATGTTGTTCTTGTGGTCTATGGTGGTAACAGCTGTTCTTTTATTGGTGTCTTTGCCTGTGTTGGCTGGCGGTATTACTATGCTGATTTTTGATCGTCATT</Hsp_hseq>
+      <Hsp_midline>||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| |||| ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| |||||||||||| |||||||||||||||||||| ||||||||||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>45</Hit_num>
+  <Hit_id>gi|1877092343|gb|MT735961.1|</Hit_id>
+  <Hit_def>Modiolus modiolus isolate SCO_HM145 cytochrome oxidase subunit 1 (COI) gene, partial cds; mitochondrial</Hit_def>
+  <Hit_accession>MT735961</Hit_accession>
+  <Hit_len>603</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>1001.25</Hsp_bit-score>
+      <Hsp_score>1109</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>9</Hsp_query-from>
+      <Hsp_query-to>580</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>572</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>565</Hsp_identity>
+      <Hsp_positive>565</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>572</Hsp_align-len>
+      <Hsp_qseq>TTGATCGGGAATGGTGGGGATTGGTTTAAGAATGTTAATTCGAATTGAGTTAGGTCGTCCTGGAAGATTTTTAGGGGACGATCAGTTATACAACGTCATTGTTACGGCCCATGCTTTAGTTATAATTTTCTTTATGGTTATGCCTTTAATGGTCGGGGGTTTTGGGAATTGGCTTCTTCCATTAATAATAGGTTCTGTAGATATAATTTTTCCGCGACTTAACAATTTGAGATTTTGGTTTCTCCCCTCTTCATTATTTATACTGTTGAGGTCTACTTTTATTGAAAGCGGGTCCGGTACTGGATGGACTTTATATCCCCCTTTGTCTTCATATACAGGACATAGTGGCCCAGCTGTTGACATATCTTTATTTTCTTTACATTTGGCAGGTGCTTCTTCTATTGGTGGATCTATTAACTTTTTAACTAGTATAAAAAATATGCCGGTGGAGGTAATGCGAGGAGAGCGGATAATGTTGTTCTTGTGGTCTATGGTGGTAACAGCTGTTCTTTTATTGGTTTCTTTGCCTGTGCTGGCTGGCGGTATTACTATGTTGATTTTTGATCGTCATT</Hsp_qseq>
+      <Hsp_hseq>TTGATCGGGAATGGTGGGGATTGGTTTAAGAATGTTAATTCGAATTGAGTTAGGTCGTCCTGGAAGATTTTTAGGGGACGATCAGCTATATAACGTCATTGTTACGGCCCATGCTTTAGTTATAATTTTCTTTATGGTTATGCCTTTAATGGTCGGGGGTTTTGGGAATTGGCTTCTTCCATTAATAATAGGTTCTGTAGATATAATTTTTCCGCGACTTAACAATTTGAGATTTTGGTTTCTCCCCTCTTCATTATTTATACTGTTGAGGTCTACTTTTATTGAAAGCGGGTCCGGTACTGGATGGACTTTATATCCTCCTTTATCTTCATATACAGGACATAGTGGGCCAGCTGTTGACATATCTTTATTTTCTTTACATTTGGCAGGTGCTTCTTCTATTGGTGGATCTATTAACTTTTTAACTAGTATAAAAAATATGCCGGTGGAGGTAATGCGAGGAGAGCGGATAATGTTGTTCTTGTGGTCTATGGTGGTAACAGCTGTTCTTTTATTGGTGTCTTTGCCTGTGCTGGCTGGCGGTATTACTATGCTGATTTTTGATCGTCATT</Hsp_hseq>
+      <Hsp_midline>||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| |||| ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| ||||| ||||||||||||||||||||||| |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| ||||||||||||||||||||||||||||||||| ||||||||||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>46</Hit_num>
+  <Hit_id>gi|1877092293|gb|MT735936.1|</Hit_id>
+  <Hit_def>Modiolus modiolus isolate ORE_HM104 cytochrome oxidase subunit 1 (COI) gene, partial cds; mitochondrial &gt;gi|1877092309|gb|MT735944.1| Modiolus modiolus isolate ORE_HM112 cytochrome oxidase subunit 1 (COI) gene, partial cds; mitochondrial &gt;gi|1877092313|gb|MT735946.1| Modiolus modiolus isolate SCO_HM006 cytochrome oxidase subunit 1 (COI) gene, partial cds; mitochondrial &gt;gi|1877092315|gb|MT735947.1| Modiolus modiolus isolate SCO_HM007 cytochrome oxidase subunit 1 (COI) gene, partial cds; mitochondrial &gt;gi|1877092345|gb|MT735962.1| Modiolus modiolus isolate SCO_HM146 cytochrome oxidase subunit 1 (COI) gene, partial cds; mitochondrial &gt;gi|1877092359|gb|MT735969.1| Modiolus modiolus isolate SCO_HM153 cytochrome oxidase subunit 1 (COI) gene, partial cds; mitochondrial &gt;gi|1877092373|gb|MT735976.1| Modiolus modiolus isolate TRO_HM176 cytochrome oxidase subunit 1 (COI) gene, partial cds; mitochondrial &gt;gi|1877092377|gb|MT735978.1| Modiolus modiolus isolate TRO_HM178 cytochrome oxidase subunit 1 (COI) gene, partial cds; mitochondrial &gt;gi|1877092415|gb|MT735997.1| Modiolus modiolus isolate WSK_HM057 cytochrome oxidase subunit 1 (COI) gene, partial cds; mitochondrial &gt;gi|1877092443|gb|MT736011.1| Modiolus modiolus isolate WSK_HM072 cytochrome oxidase subunit 1 (COI) gene, partial cds; mitochondrial &gt;gi|1877092473|gb|MT736026.1| Modiolus modiolus isolate NFL_HM130 cytochrome oxidase subunit 1 (COI) gene, partial cds; mitochondrial &gt;gi|1877092475|gb|MT736027.1| Modiolus modiolus isolate NFL_HM131 cytochrome oxidase subunit 1 (COI) gene, partial cds; mitochondrial &gt;gi|1877092479|gb|MT736029.1| Modiolus modiolus isolate NFL_HM133 cytochrome oxidase subunit 1 (COI) gene, partial cds; mitochondrial &gt;gi|1877092493|gb|MT736036.1| Modiolus modiolus isolate NFL_HM140 cytochrome oxidase subunit 1 (COI) gene, partial cds; mitochondrial &gt;gi|1877092499|gb|MT736039.1| Modiolus modiolus isolate NFL_HM143 cytochrome oxidase subunit 1 (COI) gene, partial cds; mitochondrial &gt;gi|1877092503|gb|MT736041.1| Modiolus modiolus isolate USM_HM117 cytochrome oxidase subunit 1 (COI) gene, partial cds; mitochondrial &gt;gi|1877092511|gb|MT736045.1| Modiolus modiolus isolate USM_HM121 cytochrome oxidase subunit 1 (COI) gene, partial cds; mitochondrial &gt;gi|1877092519|gb|MT736049.1| Modiolus modiolus isolate USMR_HM125 cytochrome oxidase subunit 1 (COI) gene, partial cds; mitochondrial &gt;gi|1877092525|gb|MT736052.1| Modiolus modiolus isolate USMR_HM128 cytochrome oxidase subunit 1 (COI) gene, partial cds; mitochondrial &gt;gi|1877092547|gb|MT736063.1| Modiolus modiolus isolate USM_HM209 cytochrome oxidase subunit 1 (COI) gene, partial cds; mitochondrial</Hit_def>
+  <Hit_accession>MT735936</Hit_accession>
+  <Hit_len>603</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>1001.25</Hsp_bit-score>
+      <Hsp_score>1109</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>9</Hsp_query-from>
+      <Hsp_query-to>580</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>572</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>565</Hsp_identity>
+      <Hsp_positive>565</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>572</Hsp_align-len>
+      <Hsp_qseq>TTGATCGGGAATGGTGGGGATTGGTTTAAGAATGTTAATTCGAATTGAGTTAGGTCGTCCTGGAAGATTTTTAGGGGACGATCAGTTATACAACGTCATTGTTACGGCCCATGCTTTAGTTATAATTTTCTTTATGGTTATGCCTTTAATGGTCGGGGGTTTTGGGAATTGGCTTCTTCCATTAATAATAGGTTCTGTAGATATAATTTTTCCGCGACTTAACAATTTGAGATTTTGGTTTCTCCCCTCTTCATTATTTATACTGTTGAGGTCTACTTTTATTGAAAGCGGGTCCGGTACTGGATGGACTTTATATCCCCCTTTGTCTTCATATACAGGACATAGTGGCCCAGCTGTTGACATATCTTTATTTTCTTTACATTTGGCAGGTGCTTCTTCTATTGGTGGATCTATTAACTTTTTAACTAGTATAAAAAATATGCCGGTGGAGGTAATGCGAGGAGAGCGGATAATGTTGTTCTTGTGGTCTATGGTGGTAACAGCTGTTCTTTTATTGGTTTCTTTGCCTGTGCTGGCTGGCGGTATTACTATGTTGATTTTTGATCGTCATT</Hsp_qseq>
+      <Hsp_hseq>TTGATCGGGAATGGTGGGGATTGGTTTAAGAATGTTAATTCGAATTGAGTTAGGTCGTCCTGGAAGATTTTTAGGGGACGATCAGCTATATAACGTCATTGTTACGGCCCATGCTTTAGTTATAATTTTCTTTATGGTTATGCCTTTAATGGTCGGGGGTTTTGGGAATTGGCTTCTTCCATTAATAATAGGTTCTGTAGATATAATTTTTCCGCGACTTAACAATTTGAGATTTTGGTTTCTCCCCTCTTCATTATTTATACTGTTGAGGTCTACTTTTATTGAAAGCGGGTCCGGTACTGGATGGACTTTATACCCTCCTTTGTCTTCATATACAGGACATAGTGGCCCAGCTGTTGACATATCTTTATTTTCTTTACATTTGGCAGGTGCTTCTTCTATTGGTGGATCTATTAACTTTTTAACTAGTATAAAAAATATGCCGGTGGAGGTAATGCGAGGAGAGCGGATAATGTTGTTCTTGTGGTCTATGGTGGTAACAGCTGTTCTTTTATTGGTGTCTTTGCCCGTGCTGGCTGGCGGTATTACTATGCTGATTTTTGATCGTCATT</Hsp_hseq>
+      <Hsp_midline>||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| |||| |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| || |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| |||||||| |||||||||||||||||||||||| ||||||||||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>47</Hit_num>
+  <Hit_id>gi|1877092259|gb|MT735919.1|</Hit_id>
+  <Hit_def>Modiolus modiolus isolate ORE_HM087 cytochrome oxidase subunit 1 (COI) gene, partial cds; mitochondrial</Hit_def>
+  <Hit_accession>MT735919</Hit_accession>
+  <Hit_len>603</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>1001.25</Hsp_bit-score>
+      <Hsp_score>1109</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>9</Hsp_query-from>
+      <Hsp_query-to>580</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>572</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>565</Hsp_identity>
+      <Hsp_positive>565</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>572</Hsp_align-len>
+      <Hsp_qseq>TTGATCGGGAATGGTGGGGATTGGTTTAAGAATGTTAATTCGAATTGAGTTAGGTCGTCCTGGAAGATTTTTAGGGGACGATCAGTTATACAACGTCATTGTTACGGCCCATGCTTTAGTTATAATTTTCTTTATGGTTATGCCTTTAATGGTCGGGGGTTTTGGGAATTGGCTTCTTCCATTAATAATAGGTTCTGTAGATATAATTTTTCCGCGACTTAACAATTTGAGATTTTGGTTTCTCCCCTCTTCATTATTTATACTGTTGAGGTCTACTTTTATTGAAAGCGGGTCCGGTACTGGATGGACTTTATATCCCCCTTTGTCTTCATATACAGGACATAGTGGCCCAGCTGTTGACATATCTTTATTTTCTTTACATTTGGCAGGTGCTTCTTCTATTGGTGGATCTATTAACTTTTTAACTAGTATAAAAAATATGCCGGTGGAGGTAATGCGAGGAGAGCGGATAATGTTGTTCTTGTGGTCTATGGTGGTAACAGCTGTTCTTTTATTGGTTTCTTTGCCTGTGCTGGCTGGCGGTATTACTATGTTGATTTTTGATCGTCATT</Hsp_qseq>
+      <Hsp_hseq>TTGATCGGGAATGGTGGGGATTGGTTTAAGAATGTTAATTCGAATTGAGTTAGGTCGTCCTGGAAGATTTTTAGGGGACGATCAGCTATATAACGTGATTGTTACGGCCCATGCCTTAGTTATAATTTTCTTTATGGTTATGCCTTTAATGGTCGGGGGTTTTGGGAATTGGCTTCTTCCATTAATAATAGGTTCTGTAGATATAATTTTTCCGCGACTTAACAATTTGAGATTTTGGTTTCTCCCCTCTTCATTATTTATACTGTTGAGGTCTACTTTTATTGAAAGCGGGTCCGGTACTGGATGGACTTTATATCCTCCTTTGTCTTCATATACAGGACATAGTGGCCCAGCTGTTGACATATCTTTATTTTCTTTACATTTGGCAGGTGCTTCTTCTATTGGTGGATCTATTAACTTTTTAACTAGTATAAAAAATATGCCGGTGGAGGTAATGCGAGGAGAGCGGATAATGTTGTTCTTGTGGTCTATGGTGGTAACAGCTGTTCTTTTATTGGTGTCTTTGCCTGTGCTGGCTGGCGGTATTACTATGCTGATTTTTGATCGTCATT</Hsp_hseq>
+      <Hsp_midline>||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| |||| ||||| ||||||||||||||||| ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| ||||||||||||||||||||||||||||||||| ||||||||||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>48</Hit_num>
+  <Hit_id>gi|485099933|gb|KC119387.1|</Hit_id>
+  <Hit_def>Modiolus modiolus isolate Mo52 cytochrome c oxidase subunit 1 (CO1) gene, partial cds; mitochondrial</Hit_def>
+  <Hit_accession>KC119387</Hit_accession>
+  <Hit_len>598</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>998.549</Hsp_bit-score>
+      <Hsp_score>1106</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>13</Hsp_query-from>
+      <Hsp_query-to>580</Hsp_query-to>
+      <Hsp_hit-from>598</Hsp_hit-from>
+      <Hsp_hit-to>31</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>-1</Hsp_hit-frame>
+      <Hsp_identity>562</Hsp_identity>
+      <Hsp_positive>562</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>568</Hsp_align-len>
+      <Hsp_qseq>TCGGGAATGGTGGGGATTGGTTTAAGAATGTTAATTCGAATTGAGTTAGGTCGTCCTGGAAGATTTTTAGGGGACGATCAGTTATACAACGTCATTGTTACGGCCCATGCTTTAGTTATAATTTTCTTTATGGTTATGCCTTTAATGGTCGGGGGTTTTGGGAATTGGCTTCTTCCATTAATAATAGGTTCTGTAGATATAATTTTTCCGCGACTTAACAATTTGAGATTTTGGTTTCTCCCCTCTTCATTATTTATACTGTTGAGGTCTACTTTTATTGAAAGCGGGTCCGGTACTGGATGGACTTTATATCCCCCTTTGTCTTCATATACAGGACATAGTGGCCCAGCTGTTGACATATCTTTATTTTCTTTACATTTGGCAGGTGCTTCTTCTATTGGTGGATCTATTAACTTTTTAACTAGTATAAAAAATATGCCGGTGGAGGTAATGCGAGGAGAGCGGATAATGTTGTTCTTGTGGTCTATGGTGGTAACAGCTGTTCTTTTATTGGTTTCTTTGCCTGTGCTGGCTGGCGGTATTACTATGTTGATTTTTGATCGTCATT</Hsp_qseq>
+      <Hsp_hseq>TCGGGAATGGTGGGGATTGGTTTAAGAATGTTAATTCGAATTGAGTTAGGTCGTCCTGGAAGATTTTTAGGGGACGATCAGCTATATAACGTCATTGTTACGGCCCATGCTTTAGTTATAATTTTCTTTATGGTTATGCCTTTAATGGTCGGGGGTTTTGGGAATTGGCTTCTTCCATTAATAATAGGTTCTGTAGATATAATTTTTCCGCGACTTAACAATTTGAGATTTTGGTTTCTCCCCTCTTCATTATTTATACTGTTGAGGTCTACTTTTATTGAAAGCGGGTCCGGTACTGGATGGACTTTATATCCTCCTTTGTCCTCATATACAGGACATAGTGGCCCAGCTGTTGACATATCTTTATTTTCTTTACATTTGGCAGGTGCTTCTTCTATTGGTGGATCTATTAACTTTTTAACTAGTATAAAAAATATGCCGGTGGAGGTAATGCGAGGAGAGCGGATAATGTTGTTCTTGTGGTCTATGGTGGTAACAGCTGTTCTTTTATTGGTGTCTTTGCCTGTGCTGGCTGGCGGTATTACTATGCTGATTTTTGATCGTCATT</Hsp_hseq>
+      <Hsp_midline>||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| |||| ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| |||||||| ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| ||||||||||||||||||||||||||||||||| ||||||||||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>49</Hit_num>
+  <Hit_id>gi|485099931|gb|KC119386.1|</Hit_id>
+  <Hit_def>Modiolus modiolus isolate Mo51 cytochrome c oxidase subunit 1 (CO1) gene, partial cds; mitochondrial</Hit_def>
+  <Hit_accession>KC119386</Hit_accession>
+  <Hit_len>598</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>998.549</Hsp_bit-score>
+      <Hsp_score>1106</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>13</Hsp_query-from>
+      <Hsp_query-to>580</Hsp_query-to>
+      <Hsp_hit-from>598</Hsp_hit-from>
+      <Hsp_hit-to>31</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>-1</Hsp_hit-frame>
+      <Hsp_identity>562</Hsp_identity>
+      <Hsp_positive>562</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>568</Hsp_align-len>
+      <Hsp_qseq>TCGGGAATGGTGGGGATTGGTTTAAGAATGTTAATTCGAATTGAGTTAGGTCGTCCTGGAAGATTTTTAGGGGACGATCAGTTATACAACGTCATTGTTACGGCCCATGCTTTAGTTATAATTTTCTTTATGGTTATGCCTTTAATGGTCGGGGGTTTTGGGAATTGGCTTCTTCCATTAATAATAGGTTCTGTAGATATAATTTTTCCGCGACTTAACAATTTGAGATTTTGGTTTCTCCCCTCTTCATTATTTATACTGTTGAGGTCTACTTTTATTGAAAGCGGGTCCGGTACTGGATGGACTTTATATCCCCCTTTGTCTTCATATACAGGACATAGTGGCCCAGCTGTTGACATATCTTTATTTTCTTTACATTTGGCAGGTGCTTCTTCTATTGGTGGATCTATTAACTTTTTAACTAGTATAAAAAATATGCCGGTGGAGGTAATGCGAGGAGAGCGGATAATGTTGTTCTTGTGGTCTATGGTGGTAACAGCTGTTCTTTTATTGGTTTCTTTGCCTGTGCTGGCTGGCGGTATTACTATGTTGATTTTTGATCGTCATT</Hsp_qseq>
+      <Hsp_hseq>TCGGGAATGGTGGGGATTGGTTTAAGAATGTTAATTCGAATTGAGTTAGGTCGTCCTGGAAGATTTTTAGGGGACGATCAGCTATATAACGTCATTGTTACGGCCCATGCTTTAGTTATAATTTTCTTTATGGTTATGCCTTTAATGGTCGGGGGTTTTGGGAATTGGCTTCTTCCATTAATAATAGGTTCTGTAGATATAATTTTTCCGCGACTTAACAATTTGAGATTTTGATTTCTCCCCTCTTCATTATTTATACTGTTGAGGTCTACTTTTATTGAAAGCGGGTCCGGTACTGGATGGACTTTATATCCTCCTTTGTCTTCATATACAGGACATAGTGGCCCAGCTGTTGACATATCTTTATTTTCTTTACATTTGGCAGGTGCTTCTTCTATTGGTGGATCTATTAACTTTTTAACTAGTATAAAAAATATGCCGGTGGAGGTAATGCGAGGAGAGCGGATAATGTTGTTCTTGTGGTCTATGGTGGTAACAGCTGTTCTTTTATTGGTGTCTTTGCCTGTGCTGGCTGGCGGTATTACTATGCTGATTTTTGATCGTCATT</Hsp_hseq>
+      <Hsp_midline>||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| |||| |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| ||||||||||||||||||||||||||||||||| ||||||||||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>50</Hit_num>
+  <Hit_id>gi|485099929|gb|KC119385.1|</Hit_id>
+  <Hit_def>Modiolus modiolus isolate Mo50 cytochrome c oxidase subunit 1 (CO1) gene, partial cds; mitochondrial</Hit_def>
+  <Hit_accession>KC119385</Hit_accession>
+  <Hit_len>598</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>998.549</Hsp_bit-score>
+      <Hsp_score>1106</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>13</Hsp_query-from>
+      <Hsp_query-to>580</Hsp_query-to>
+      <Hsp_hit-from>598</Hsp_hit-from>
+      <Hsp_hit-to>31</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>-1</Hsp_hit-frame>
+      <Hsp_identity>562</Hsp_identity>
+      <Hsp_positive>562</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>568</Hsp_align-len>
+      <Hsp_qseq>TCGGGAATGGTGGGGATTGGTTTAAGAATGTTAATTCGAATTGAGTTAGGTCGTCCTGGAAGATTTTTAGGGGACGATCAGTTATACAACGTCATTGTTACGGCCCATGCTTTAGTTATAATTTTCTTTATGGTTATGCCTTTAATGGTCGGGGGTTTTGGGAATTGGCTTCTTCCATTAATAATAGGTTCTGTAGATATAATTTTTCCGCGACTTAACAATTTGAGATTTTGGTTTCTCCCCTCTTCATTATTTATACTGTTGAGGTCTACTTTTATTGAAAGCGGGTCCGGTACTGGATGGACTTTATATCCCCCTTTGTCTTCATATACAGGACATAGTGGCCCAGCTGTTGACATATCTTTATTTTCTTTACATTTGGCAGGTGCTTCTTCTATTGGTGGATCTATTAACTTTTTAACTAGTATAAAAAATATGCCGGTGGAGGTAATGCGAGGAGAGCGGATAATGTTGTTCTTGTGGTCTATGGTGGTAACAGCTGTTCTTTTATTGGTTTCTTTGCCTGTGCTGGCTGGCGGTATTACTATGTTGATTTTTGATCGTCATT</Hsp_qseq>
+      <Hsp_hseq>TCGGGAATGGTGGGGATTGGTTTAAGAATGTTAATTCGAATTGAGTTAGGTCGTCCTGGAAGATTTTTAGGGGACGATCAGCTATATAACGTCATTGTTACGGCCCATGCTTTAGTTATAATTTTCTTTATGGTTATGCCTTTAATGGTCGGGGGTTTTGGGAATTGGCTTCTTCCATTAATAATAGGTTCTGTAGATATAATTTTTCCGCGACTTAACAATTTGAGATTTTGGTTTCTCCCCTCTTCATTATTTATACTGTTGAGGTCTACTTTTATTGAAAGCGGGTCCGGTACTGGATGGACTTTATATCCTCCTTTGTCTTCATATACAGGACATAGTGGCCCAGCTGTTGACATATCTTTATTTTCTTTACATTTGGCAGGTGCTTCTTCTATTGGTGGATCTATTAATTTTTTAACTAGTATAAAAAATATGCCGGTGGAGGTAATGCGAGGAGAGCGGATAATGTTGTTCTTGTGGTCTATGGTGGTAACAGCTGTTCTTTTATTGGTGTCTTTGCCTGTGCTGGCTGGCGGTATTACTATGCTGATTTTTGATCGTCATT</Hsp_hseq>
+      <Hsp_midline>||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| |||| ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| ||||||||||||||||||||||||||||||||| ||||||||||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+</Iteration_hits>
+  <Iteration_stat>
+    <Statistics>
+      <Statistics_db-num>104755876</Statistics_db-num>
+      <Statistics_db-len>1507719518</Statistics_db-len>
+      <Statistics_hsp-len>0</Statistics_hsp-len>
+      <Statistics_eff-space>0</Statistics_eff-space>
+      <Statistics_kappa>0.41</Statistics_kappa>
+      <Statistics_lambda>0.625</Statistics_lambda>
+      <Statistics_entropy>0.78</Statistics_entropy>
+    </Statistics>
+  </Iteration_stat>
+</Iteration>
+</BlastOutput_iterations>
+</BlastOutput>
