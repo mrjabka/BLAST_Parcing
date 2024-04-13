@@ -10,9 +10,9 @@ import os
 # 2. enter variables
 start_time = time.time()
 end_time = time.time()
-NCBIWWW.email = 'anikeeew@gmail.com'
-url = 'C:\\Users\\anike\\OneDrive\\Документы\\py_project\\blast_result.xml'
-target_url = 'C:\\Users\\anike\\OneDrive\\Документы\\py_project\\blast_requests'
+NCBIWWW.email = '' # there should be an email here without file name
+url = '' # there should be a path to the file
+target_url = '' # there should be a destination directory
 file_name = 'blast_result.xml'
 
 # 3. send a request to BLAST, write the result to an XML file
@@ -46,7 +46,7 @@ for alignment in blast_record.alignments:
 
 # get file creation time, data type - datetime.date()
 def get_time(url, file_name):
-    t = os.path.getmtime(url)
+    t = os.path.getmtime(url + '\\' + file_name)
     return datetime.datetime.fromtimestamp(t)
 
 
@@ -58,3 +58,8 @@ def copy_file(url, file_name, target_url, day):
 
 day = get_time(url, file_name)
 copy_file(url, file_name, target_url, day)
+
+'''                          !!! optional element !!!
+if __name__ == '__main__':
+    pass
+'''
