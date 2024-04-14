@@ -11,9 +11,6 @@ import os
 start_time = time.time()
 end_time = time.time()
 NCBIWWW.email = '' # there should be an email here without file name
-url = '' # there should be a path to the file
-target_url = '' # there should be a destination directory
-file_name = 'blast_result.xml'
 
 # 3. send a request to BLAST, write the result to an XML file
 wdir = os.getcwd()
