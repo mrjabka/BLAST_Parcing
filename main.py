@@ -10,7 +10,7 @@ import os
 # 2. enter variables
 start_time = time.time()
 end_time = time.time()
-NCBIWWW.email = '' # there should be an email here without file name
+NCBIWWW.email = '' # there should be an email here 
 
 # 3. send a request to BLAST, write the result to an XML file
 wdir = os.getcwd()
