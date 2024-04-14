@@ -1,3 +1,7 @@
+# Homo sapiens chromosome 6, GRCh38.p14 Primary Assembly is used as an example
+# NCBI Reference Sequence: NC_000006.12
+# https://www.ncbi.nlm.nih.gov/nuccore/NC_000006.12?report=fasta&from=27866792&to=27867588&strand=true
+
 # 1. libraries and data import
 import time
 import datetime
