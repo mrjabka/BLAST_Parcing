@@ -14,7 +14,7 @@
 
 ![image](https://github.com/mrjabka/BLAST_Parcing/assets/157302347/08c47efd-e400-4cbe-816a-ba93215c9741)
 
-### Вывод в BLAST
+### Вывод в BLAST WEB
 
 ![image](https://github.com/mrjabka/BLAST_Parcing/assets/157302347/3627c7bf-92da-4965-86ff-c5749cbcafd9)
 
