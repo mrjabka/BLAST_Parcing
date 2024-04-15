@@ -5,7 +5,6 @@
 # 1. libraries and data import
 import time
 import datetime
-import shutil
 from Bio.Blast import NCBIWWW
 from Bio.Blast import NCBIXML
 from Bio import SeqIO
